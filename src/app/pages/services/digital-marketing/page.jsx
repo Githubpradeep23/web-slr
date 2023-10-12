@@ -69,11 +69,11 @@ const page = () => {
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">
-                                            Search Engine Optimization (SEO)
+                                           {` Search Engine Optimization (SEO)`}
                                         </h4>
                                         <p className="text-body-color text-xs">
-                                            Enhance your online visibility and rankings with our cutting-edge SEO techniques, driving organic traffic to your website.                                        </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                            {`Enhance your online visibility and rankings with our cutting-edge SEO techniques, driving organic traffic to your website.`}</p>
+                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
                                     </div>
                                 </div>
 
@@ -88,8 +88,8 @@ const page = () => {
                                             Google Ads
                                         </h4>
                                         <p className="text-body-color text-xs">
-                                            Reach your target audience swiftly and efficiently through our Google Ads campaigns, optimizing your ROI with precision targeting.                                        </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                            {`Reach your target audience swiftly and efficiently through our Google Ads campaigns, optimizing your ROI with precision targeting. `}</p>
+                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
                                     </div>
                                 </div>
 
@@ -102,9 +102,8 @@ const page = () => {
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">Social Media Marketing</h4>
                                         <p className="text-body-color text-xs">
-                                            Harness the power of social platforms to engage, convert, and delight your audience, building a strong online community
-                                        </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                            {`Harness the power of social platforms to engage, convert, and delight your audience, building a strong online community`}</p>
+                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
                                     </div>
                                 </div>
 
@@ -117,9 +116,9 @@ const page = () => {
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">Lead Generation</h4>
                                         <p className="text-body-color text-xs">
-                                            Fuel your sales pipeline with high-quality leads using our strategic lead generation tactics, tailored to your business.
+                                            {`Fuel your sales pipeline with high-quality leads using our strategic lead generation tactics, tailored to your business.`}
                                         </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
                                     </div>
                                 </div>
 
@@ -134,9 +133,9 @@ const page = () => {
                                             Branding
                                         </h4>
                                         <p className="text-body-color text-xs">
-                                            Craft a compelling brand identity that resonates with your audience, leaving a lasting impression and fostering brand loyalty.
+                                            {`Craft a compelling brand identity that resonates with your audience, leaving a lasting impression and fostering brand loyalty.`}
                                         </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
                                     </div>
                                 </div>
 
@@ -149,9 +148,9 @@ const page = () => {
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">Email Marketing</h4>
                                         <p className="text-body-color text-xs">
-                                            Leverage personalized email campaigns to nurture leads, retain customers, and drive conversions, all while enhancing your brand's reputation.
+                                            {`Leverage personalized email campaigns to nurture leads, retain customers, and drive conversions, all while enhancing your brand's reputation.`}
                                         </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
                                     </div>
                                 </div>
 
@@ -169,7 +168,7 @@ const page = () => {
                     <div className='bg-mpbile_enabled_decks bg-no-repeat bg-cover md:mt-32 px-2'>
                         <h1 className="font-bold md:text-4xl text-2xl text-[#152C4E] text-left">Choosing Excellence <br /> in Digital Marketing</h1>
                         <p className='py-2 text-gray-600 text-left text-sm md:mt-2'>
-                            We stand out as your trusted digital marketing partner. Our seasoned experts in SEO, Google Ads, Social Media, Branding, and Lead generation bring years of experience to deliver exceptional results. We tailor strategies to your unique goals, staying ahead of industry trends with cutting-edge techniques. We're dedicated to your success and
+                            {`We stand out as your trusted digital marketing partner. Our seasoned experts in SEO, Google Ads, Social Media, Branding, and Lead generation bring years of experience to deliver exceptional results. We tailor strategies to your unique goals, staying ahead of industry trends with cutting-edge techniques. We're dedicated to your success and`}
                         </p>
                         <ul className='md:text-left md:text-xs md:p-2 md:ml-2 md:gap-2 list-disc'>
                             <li className='text-[#75EAE4]'>
@@ -205,7 +204,7 @@ const page = () => {
 
                         <div>
                             <p className='py-2 text-gray-600 text-left text-sm md:mt-2 md:mb-6'>
-                                We consistently surpass expectations in service delivery, ensuring your complete satisfaction
+                                {`We consistently surpass expectations in service delivery, ensuring your complete satisfaction`}
                             </p>
 
                             <div className='md:mb-8'>
@@ -256,7 +255,7 @@ const page = () => {
                             </h1>
                         </div>
                         <p className='text-gray-600 text-left text-sm md:mt-48'>
-                            our primary mission is to catapult your business to new heights in the digital realm. With our expertise and unwavering dedication, we craft innovative strategies and deploy cutting-edge techniques tailored to your unique goals. Whether it's enhancing your online visibility, driving targeted traffic, or maximizing your return on investment, we are here to ensure your business thrives in the competitive online landscape. Count on us to be your trusted partner, committed to achieving excellence and propelling your business toward unparalleled success."
+                            {`our primary mission is to catapult your business to new heights in the digital realm. With our expertise and unwavering dedication, we craft innovative strategies and deploy cutting-edge techniques tailored to your unique goals. Whether it's enhancing your online visibility, driving targeted traffic, or maximizing your return on investment, we are here to ensure your business thrives in the competitive online landscape. Count on us to be your trusted partner, committed to achieving excellence and propelling your business toward unparalleled success."`}
                         </p>
                     </div>
                 </div>
