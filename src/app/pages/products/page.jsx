@@ -154,69 +154,105 @@ const page = () => {
 
       <div id='about' className='w-full bg-gradient-to-r from-[#FFFFFF] from-15% via-[#FCFFFE80] via-20% to-[#75EAE440] to-100% text-center py-10' >
 
-<div className='container mx-auto md:max-w-[800px] md:mb-10'>
+<div className='container mx-auto md:mb-10'>
 
   <div className="mx-auto max-w-[100%] text-center">
     <h2 className="font-semibold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 md:mb-[50px] lg:mb-[10px]">SAP Services</h2>
   </div>
 
-  <div className="grid md:grid-cols-3 grid-cols-1 gap-2 px-4">
+  <div className="grid md:grid-cols-5 grid-cols-1 gap-4 px-6">
 
-    <div className="w-[250px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-      <div className="p-4">
-        <div className='flex justify-center'>
-          <Image src={"../../assets/images/Role-Based Cloud Solution.png"} width='30' height='30' alt='/' />
-        </div>
-        <p className="text-[14px] p-2 text-center">{"Role-Based Cloud Solution"}</p>
-      </div>
+<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+  <div className="p-4">
+    <div className='flex justify-center'>
+      <Image src={"../../assets/images/Role-Based Cloud Solution.png"} width='30' height='30' alt='/' />
     </div>
-
-    <div className="w-[250px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-      <div className="p-4">
-        <div className='flex justify-center'>
-          <Image src={"../../assets/images/Easy Data Migration.png"} width='30' height='30' alt='/' />
-        </div>
-        <p className="text-[14px] p-2 text-center">{"Easy Data Migration"}</p>
-      </div>
-    </div>
-
-    <div className="w-[250px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-      <div className="p-4">
-        <div className='flex justify-center'>
-          <Image src={"../../assets/images/Data Extraction.png"} width='30' height='30' alt='/' />
-        </div>
-        <p className="text-[14px] p-2 text-center">{"Data Extraction"}</p>
-      </div>
-    </div>
-
-    <div className="w-[250px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-      <div className="p-4">
-        <div className='flex justify-center'>
-          <Image src={"../../assets/images/User Friendly.png"} width='30' height='30' alt='/' />
-        </div>
-        <p className="text-[14px] p-2 text-center">{"User Friendly"}</p>
-      </div>
-    </div>
-
-    <div className="w-[250px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-      <div className="p-4">
-        <div className='flex justify-center'>
-          <Image src={"../../assets/images/Easy Installation.png"} width='30' height='30' alt='/' />
-        </div>
-        <p className="text-[14px] p-2 text-center">{"Easy Installation"}</p>
-      </div>
-    </div>
-
-    <div className="w-[250px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-      <div className="p-4">
-        <div className='flex justify-center'>
-          <Image src={"../../assets/images/Audit.png"} width='30' height='30' alt='/' />
-        </div>
-        <p className="text-[14px] p-2 text-center">{"Audit"}</p>
-      </div>
-    </div>
-
+    <p className="text-[14px] p-2 text-center">{"Role-Based Cloud Solution"}</p>
   </div>
+</div>
+
+<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+  <div className="p-4">
+    <div className='flex justify-center'>
+      <Image src={"../../assets/images/Easy Data Migration.png"} width='30' height='30' alt='/' />
+    </div>
+    <p className="text-[14px] p-2 text-center">{"Easy Data Migration"}</p>
+  </div>
+</div>
+
+<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+  <div className="p-4">
+    <div className='flex justify-center'>
+      <Image src={"../../assets/images/Data Extraction.png"} width='30' height='30' alt='/' />
+    </div>
+    <p className="text-[14px] p-2 text-center">{"Data Extraction"}</p>
+  </div>
+</div>
+
+<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+  <div className="p-4">
+    <div className='flex justify-center'>
+      <Image src={"../../assets/images/User Friendly.png"} width='30' height='30' alt='/' />
+    </div>
+    <p className="text-[14px] p-2 text-center">{"User Friendly"}</p>
+  </div>
+</div>
+
+<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+  <div className="p-4">
+    <div className='flex justify-center'>
+      <Image src={"../../assets/images/Easy Installation.png"} width='30' height='30' alt='/' />
+    </div>
+    <p className="text-[14px] p-2 text-center">{"Easy Installation"}</p>
+  </div>
+</div>
+
+<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+  <div className="p-4">
+    <div className='flex justify-center'>
+      <Image src={"../../assets/images/Compliance Assurance.png"} width='30' height='30' alt='/' />
+    </div>
+    <p className="text-[14px] p-2 text-center">{"Compliance Assurance"}</p>
+  </div>
+</div>
+
+<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+  <div className="p-4">
+    <div className='flex justify-center'>
+      <Image src={"../../assets/images/Security.png"} width='30' height='30' alt='/' />
+    </div>
+    <p className="text-[14px] p-2 text-center">{"Security"}</p>
+  </div>
+</div>
+
+<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+  <div className="p-4">
+    <div className='flex justify-center'>
+      <Image src={"../../assets/images/Audit.png"} width='30' height='30' alt='/' />
+    </div>
+    <p className="text-[14px] p-2 text-center">{"Cost"}</p>
+  </div>
+</div>
+
+<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+  <div className="p-4">
+    <div className='flex justify-center'>
+      <Image src={"../../assets/images/Time.png"} width='30' height='30' alt='/' />
+    </div>
+    <p className="text-[14px] p-2 text-center">{"Time"}</p>
+  </div>
+</div>
+
+<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+  <div className="p-4">
+    <div className='flex justify-center'>
+      <Image src={"../../assets/images/User Friendly.png"} width='30' height='30' alt='/' />
+    </div>
+    <p className="text-[14px] p-2 text-center">{"User Friendly"}</p>
+  </div>
+</div>
+
+</div>
 
 </div>
 </div>
