@@ -59,8 +59,8 @@ const Navbar = () => {
               MenuList?.map((menu, i) => (
                 <div key={menu.name} className='md:mb-1'>
                   
-                  <li key={menu.name} className='w-1/3 border border-[#75EAE2] border-b-2 border-l-0 border-r-0 border-t-0 flex mx-5 text-[15px]'>
-                    <Link key={menu.name} href={menu?.link} className='capitalize'>{menu?.name}</Link>
+                  <li className='w-1/3 border border-[#75EAE2] border-b-2 border-l-0 border-r-0 border-t-0 flex mx-5 text-[15px]'>
+                    <Link href={menu?.link} className='capitalize'>{menu?.name}</Link>
 
                     {menu.submenu && (
                       <span onClick={() => setSubMenuOpen(subMenuOpen !== menu.name ? menu.name : "")}
@@ -72,11 +72,11 @@ const Navbar = () => {
                   </li>
 
                   {subMenuOpen && subMenuOpen === menu.name && menu.submenu && (
-                    <div key={menu.name} className='absolute z-50 bg-white divide-y md:mt-2 divide-gray-100 rounded-lg shadow w-auto dark:bg-gray-700'>
+                    <div className='absolute z-50 bg-white divide-y md:mt-2 divide-gray-100 rounded-lg shadow w-auto dark:bg-gray-700'>
                       <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
                         {menu.submenu.map((subMenuItem, idx) => (
                           <li key={subMenuItem.name} onClick={() => setSubMenuOpen(subMenuOpen == menu.name ? !subMenuOpen : subMenuOpen) }>
-                            <Link key={subMenuItem.name} href={subMenuItem.link}
+                            <Link href={subMenuItem.link}
                               className={` ${menu?.margin && "my-2"} block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white`}
                             >
                               {subMenuItem.name}
@@ -149,7 +149,7 @@ const Navbar = () => {
               {
                 MenuList?.map((list, i) => (
                   <div key={list.name} className=''>
-                    <li key={list.name} className='py-4 text-md flex justify-between'>
+                    <li className='py-4 text-md flex justify-between'>
                       <Link href={list?.link}>
                         {list?.name}
                       </Link>
@@ -163,11 +163,11 @@ const Navbar = () => {
                     </li>
 
                     {subMenuOpen && subMenuOpen === list.name && list.submenu && (
-                      <div key={list.name} className='absolute z-50 bg-white divide-y md:mt-2 divide-gray-100 rounded-lg shadow w-auto dark:bg-gray-700'>
+                      <div className='absolute z-50 bg-white divide-y md:mt-2 divide-gray-100 rounded-lg shadow w-auto dark:bg-gray-700'>
                         <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
                           {list.submenu.map((subMenuItem, idx) => (
-                            <li>
-                              <Link key={subMenuItem.name} href={subMenuItem.link}
+                            <li key={subMenuItem.name}>
+                              <Link href={subMenuItem.link}
                                 className={` ${list?.margin && "my-2"} block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white`}
                               >
                                 {subMenuItem.name}
