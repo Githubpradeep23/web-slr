@@ -161,8 +161,8 @@ const page = () => {
                     <div className='md:max-w-6xl'>
                         <h2 className="font-bold md:text-2xl text-2xl text-[#152C4E] text-left">Streamlined Development Process</h2>
                         <p className='py-2 text-gray-600 text-sm md:mt-2 text-left'>
-                            Discover our end-to-end process for creating Software's and mobile apps, customized to
-                            meet your unique requirements.
+                            {`Discover our end-to-end process for creating Software's and mobile apps, customized to
+                            meet your unique requirements.`}
                         </p>
 
                     </div>
@@ -194,7 +194,7 @@ const page = () => {
                 <div className='grid md:grid grid-cols-2 gap-8'>
 
                     <div className='md:max-w-lg'>
-                        <h2 className="font-bold md:text-xl text-2xl text-[#152C4E] text-left">Leveraging Cutting-Edge Technologies for Software and Mobile App
+                        <h2 className="font-bold md:text-xl text-2xl text-[#152C4E] text-left">{`Leveraging Cutting-Edge Technologies for Software and Mobile App`}
                            <br/> Development</h2>
                         <div className="rounded-lg md:mt-10">
                             <Image className='md:w-[300px]' width={0} height={"0"} src={"../../assets/images/home-banner/services-4.png"} alt='/' />
