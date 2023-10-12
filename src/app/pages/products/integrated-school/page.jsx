@@ -81,8 +81,8 @@ const page = () => {
       <div className='container md:w-full mx-auto ' >
 
         <div className="mx-auto text-center">
-          <h2 className="text-[#0adccc] font-bold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 lg:mb-[20px]">"Empower Your School with SLRIS Edumatic:
-            Comprehensive Education Management Solutions"</h2>
+          <h2 className="text-[#0adccc] font-bold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 lg:mb-[20px]">{`"Empower Your School with SLRIS Edumatic:
+            Comprehensive Education Management Solutions"`}</h2>
         </div>
 
         <div className='m-auto md:max-w-6xl md:grid grid-cols-2 md:mt-10'>
@@ -92,11 +92,11 @@ const page = () => {
             <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">{"Streamline School Management with SLRIS Edumatic"}</h2>
 
             <p className='md:py-2 py-2 text-gray-600 text-justify md:text-sm'>
-              Discover SLRIS Edumatic's comprehensive suite of education management solutions,
+              {`Discover SLRIS Edumatic's comprehensive suite of education management solutions,
               designed to enhance school operations and elevate the learning experience. Our Learning
               Management System (LMS) introduces interactivity and engagement to education, while our
               robust Assessment tools provide real-time insights into student performance, empowering
-              informed decision-making.
+              informed decision-making.`}
             </p>
 
           </div>
@@ -118,14 +118,14 @@ const page = () => {
             <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">{"Efficiency in Administration and Communication"}</h2>
 
             <p className='md:py-2 py-2 text-gray-600 text-justify md:text-sm'>
-              Experience seamless administration with our Fee Management system and Student
+              {`Experience seamless administration with our Fee Management system and Student
               Information System, enabling effortless fee collection and student data management.
               Revolutionize your admission processes through automation and digitization with our
               Admission Management Software. Efficiently plan exams from start to finish with our Exam
               Planner. Create accurate report cards with ease using our Report Card Generation feature
               and maintain flawless student records through our Student Tracking System. Foster effective
               parent communication through announcements, polls, and surveys with our Parent
-              Communication module.
+              Communication module.`}
             </p>
 
           </div>
@@ -139,12 +139,12 @@ const page = () => {
             <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">{"Innovative Teaching and Safety"}</h2>
 
             <p className='md:py-2 py-2 text-gray-600 text-justify md:text-sm'>
-              Stay at the forefront of education with our NEP-compliant Teachsmart Courses, introducing
+              {`Stay at the forefront of education with our NEP-compliant Teachsmart Courses, introducing
               21st-century skill development into your school's curriculum. Ensure safety and efficiency
               with our Transport Management system, which optimizes bus routes and staff management.
               Easily generate customized ID cards for students and staff using our ID Card Generator. With
               SLRIS Edumatic, you can streamline school management, promote innovative teaching
-              methods, and maintain a strong connection with your school community.
+              methods, and maintain a strong connection with your school community.`}
             </p>
 
           </div>
@@ -175,16 +175,16 @@ const page = () => {
 
                 <div className='m-auto md:p-2 md:my-6 flex-1'>
                   <ul class="list-disc-none">
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Student Information System - SIS</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Teachers and Student app</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Classroom management</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Unlimited two-way live class and recording</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Communication</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Assessments</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Homework</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Study materials</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Teacher-Student chat</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Admin dashboard -Single access</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Student Information System - SIS`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Teachers and Student app`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Classroom management`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Unlimited two-way live class and recording`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Communication`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Assessments`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Homework`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Study materials`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Teacher-Student chat`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Admin dashboard -Single access`}</span></li>
                   </ul>
                 </div>
 
@@ -199,21 +199,21 @@ const page = () => {
               
               <div className='m-auto md:p-2 md:my-6 flex-1'>
                 <ul class="list-disc-none">
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Fee management</span></li>                               
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Customer fee reports</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Expense management</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Admission management</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>ID card</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Website buidler</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Student & Staff attendance tracking</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Certificate generator</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Transport management</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Library management</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Website buidler</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Hostel management</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Inventory management</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Yearly calendar</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Admit card</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Fee management`}</span></li>                               
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Customer fee reports`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Expense management`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Admission management`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`ID card`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Website buidler`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Student & Staff attendance tracking`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Certificate generator`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Transport management`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Library management`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Website buidler`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Hostel management`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Inventory management`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Yearly calendar`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Admit card`}</span></li>
                 </ul>
               </div>
 
@@ -228,9 +228,9 @@ const page = () => {
               
               <div className='m-auto md:p-2 md:my-6 flex-1'>
                 <ul class="list-disc-none">
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Everything in the advanced plan</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Automated timetable</span></li>
-                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>Report card</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Everything in the advanced plan`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Automated timetable`}</span></li>
+                  <li className='md:flex'><TiTick className='md:text-[20px] text-[#75EAE2]' /><span className='md:text-xs'>{`Report card`}</span></li>
                 </ul>
               </div>
 
