@@ -160,7 +160,7 @@ const page = () => {
     <h2 className="font-semibold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 md:mb-[50px] lg:mb-[10px]">SAP Services</h2>
   </div>
 
-  <div className="grid md:grid-cols-5 grid-cols-1 gap-4 px-6">
+  <div className="grid md:grid-cols-5 grid-cols-1 gap-4 px-6 flex justify-center">
 
 <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
   <div className="p-4">
