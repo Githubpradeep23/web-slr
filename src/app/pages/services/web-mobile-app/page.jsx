@@ -207,7 +207,7 @@ const page = () => {
                         <div className="grid md:grid-cols-2 grid-cols-2 px-4">
 
                             {cuttingAdege && cuttingAdege.map((listFour, index) => (
-                            <div className="w-full px-4">
+                                <div key={listFour.name} className="w-full px-4">
                                 <div className="mb-8 rounded-[20px] bg-white">
                                     <div className="bg-primary flex h-[60px] w-[70px] items-center justify-start rounded-2xl">
                                             {listFour.imageUrl &&
