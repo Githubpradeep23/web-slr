@@ -40,9 +40,9 @@ const page = () => {
             <div className="mx-auto mb-2 max-w-[100%] text-center lg:mb-1 mt-1">
               <h2 className="font-semibold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 ml-8 md:mb-[60px] lg:mb-[20px]">Our SAP Services</h2>
               <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
-                Our comprehensive range of SAP services encompasses transformation, integration, and
+                {`Our comprehensive range of SAP services encompasses transformation, integration, and
                 efficiency solutions, providing organizations with the tools and expertise needed to drive
-                business success and innovation."
+                business success and innovation."`}
               </p>
             </div>
 
@@ -61,7 +61,7 @@ const page = () => {
                   SAP Transformation
                 </h4>
                 <p className="text-body-color text-xs">
-                  Strong partnership with SAP to ensure alignment with the needs of the business and access to the latest innovations.
+                  {`Strong partnership with SAP to ensure alignment with the needs of the business and access to the latest innovations.`}
                 </p>
                 <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
               </div>
@@ -78,7 +78,7 @@ const page = () => {
                   SAP UI Apps
                 </h4>
                 <p className="text-body-color text-xs">
-                  End-to-end provider for all HR solution-related needs, from reseller to comprehensive service-based models.
+                  {`End-to-end provider for all HR solution-related needs, from reseller to comprehensive service-based models.`}
                 </p>
                 <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
               </div>
@@ -93,7 +93,7 @@ const page = () => {
                 </div>
                 <h4 className="text-dark mb-3 text-sm font-semibold">SAP On-Premise</h4>
                 <p className="text-body-color text-xs">
-                  Scalable and flexible solutions to accommodate changing business needs.
+                  {`Scalable and flexible solutions to accommodate changing business needs.`}
                 </p>
                 <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
               </div>
@@ -108,7 +108,7 @@ const page = () => {
                 </div>
                 <h4 className="text-dark mb-3 text-sm font-semibold">SAP Success Factors</h4>
                 <p className="text-body-color text-xs">
-                  Proven track record of successful SAP implementations across various industries.
+                  {`Proven track record of successful SAP implementations across various industries.`}
                 </p>
                 <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
               </div>
@@ -125,7 +125,7 @@ const page = () => {
                   SAP Cloud Integration
                 </h4>
                 <p className="text-body-color text-xs">
-                  Dedicated customer support and partnership approach for long-term success.
+                  {`Dedicated customer support and partnership approach for long-term success.`}
                 </p>
                 <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
               </div>
@@ -140,8 +140,8 @@ const page = () => {
                 </div>
                 <h4 className="text-dark mb-3 text-sm font-semibold">SAP S/4 HANA</h4>
                 <p className="text-body-color text-xs">
-                  Migrating to SAP's next-generation Enterprise Resource Planning (ERP) suite for real-time
-                  data processing and analytics.
+                  {`Migrating to SAP's next-generation Enterprise Resource Planning (ERP) suite for real-time
+                  data processing and analytics.`}
                 </p>
                 <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
               </div>
@@ -238,24 +238,24 @@ const page = () => {
               <div className='flex'>
                 <span className='mt-3'><FaCheck className='bg-[#75EAE4] text-[#75EAE4] rounded-full md:w-2 md:h-2' /></span>
                 <p className="text-[12px] md:text-[16px] p-1 text-justify"><b>COST:</b> <span className='md:text-sm'>
-                  It's a mini project by itself that requires a lot of workforce and time and thus makes
-                  the activity expensive.</span></p>
+                  {`It's a mini project by itself that requires a lot of workforce and time and thus makes
+                  the activity expensive.`}</span></p>
               </div>
               <div className='flex'>
                 <span className='mt-3'><FaCheck className='bg-[#75EAE4] text-[#75EAE4] rounded-full md:w-2 md:h-2' /></span>
                 <p className="text-[12px] md:text-[16px] p-1 text-justify"><b>TIME: </b>
                 <span className='md:text-sm'>
-                    Building custom programs for the migration activity
+                    {`Building custom programs for the migration activity
                     takes 20 percent of the
-                    project timeline, which demands considerable effort.</span>
+                    project timeline, which demands considerable effort.`}</span>
                 </p>
               </div>
               <div className='flex'>
                 <span className='mt-3'><FaCheck className='bg-[#75EAE4] text-[#75EAE4] rounded-full md:w-2 md:h-2' /></span>
                 <p className="text-[12px] md:text-[16px] p-1 text-justify"><b>COMPLEXITY: </b>
                 <span className='md:text-sm'>
-                  Ultimately, the end user needs SAP knowledge to use the SAP transactions
-                    to import/export the data.</span>
+                  {`Ultimately, the end user needs SAP knowledge to use the SAP transactions
+                    to import/export the data.`}</span>
                 </p>
               </div>
 
@@ -263,7 +263,7 @@ const page = () => {
                 <span className='mt-3'><FaCheck className='bg-[#75EAE4] text-[#75EAE4] rounded-full md:w-2 md:h-2' /></span>
                 <p className="text-[12px] md:text-[16px] p-1 text-justify"><b>SECURITY: </b>
                 <span className='md:text-sm'>
-                    Sending sensitive data between different stakeholders is risky and not secure.</span>
+                    {`Sending sensitive data between different stakeholders is risky and not secure.`}</span>
                 </p>
               </div>
 
@@ -288,13 +288,13 @@ const page = () => {
             <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">{"Streamline your Workload"}</h2>
 
             <p className='md:py-2 py-2 text-gray-600 text-justify md:text-sm'>
-              Our comprehensive solution is designed to streamline your workload effectively. With our
+              {`Our comprehensive solution is designed to streamline your workload effectively. With our
               services, you can effortlessly tackle payroll data conversion, ensuring a seamless transition.
               Importing legacy payroll results and year-end adjustments becomes a breeze, reducing
               complexity and saving valuable time. We simplify bonus payments and make it hassle-free.
               Exporting payroll master data is made efficient, and uploading benefits deductions is a
               straightforward process. Embrace our services to optimize your workflow and enhance
-              productivity.
+              productivity.`}
             </p>
 
           </div>
@@ -308,9 +308,9 @@ const page = () => {
             <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">{"Efficient and Secure Payroll Management"}</h2>
 
             <p className='md:py-2 py-2 text-gray-600 text-justify md:text-sm'>
-              Our solution automates data processing, expediting payroll runs and ensuring accuracy while
+              {`Our solution automates data processing, expediting payroll runs and ensuring accuracy while
               staying compliant with regulations. Advanced security safeguards sensitive payroll data,
-              saving you time and offering peace of mind.
+              saving you time and offering peace of mind.`}
             </p>
 
             <div className="md:p-4 md:ml-4">
@@ -318,16 +318,16 @@ const page = () => {
                 <span className='mt-3'><FaCheck className='bg-[#75EAE4] text-[#75EAE4] rounded-full md:w-2 md:h-2' /></span>
                 <p className="text-[12px] md:text-[16px] p-1 text-justify"><b>Automated Data Processing: </b>
                   <span className='md:text-sm'>
-                    Our solution automates payroll data processing, reducing the chance of errors and saving you valuable time.
+                    {`Our solution automates payroll data processing, reducing the chance of errors and saving you valuable time.`}
                   </span>
                 </p>
               </div>
               <div className='flex'>
                 <span className='mt-3'><FaCheck className='bg-[#75EAE4] text-[#75EAE4] rounded-full md:w-2 md:h-2' /></span>
-                <p className="text-[12px] md:text-[16px] p-1 text-justify"><b>Accelerated Payroll Runs: </b>
+                <p className="text-[12px] md:text-[16px] p-1 text-justify"><b>{`Accelerated Payroll Runs:`} </b>
                   <span className='md:text-sm'>
-                    Speed up your payroll runs significantly by faster loading data,
-                    allowing you to meet deadlines and ensure your employees receive timely payments.
+                    {`Speed up your payroll runs significantly by faster loading data,
+                    allowing you to meet deadlines and ensure your employees receive timely payments.`}
                   </span>
                 </p>
               </div>
@@ -335,9 +335,9 @@ const page = () => {
                 <span className='mt-3'><FaCheck className='bg-[#75EAE4] text-[#75EAE4] rounded-full md:w-2 md:h-2' /></span>
                 <p className="text-[12px] md:text-[16px] p-1 text-justify"><b>Compliance Assurance: </b>
                   <span className='md:text-sm'>
-                    Stay compliant with the latest payroll regulations effortlessly.
+                   {` Stay compliant with the latest payroll regulations effortlessly.
                     Rest assured that your sensitive payroll data is protected with advanced security
-                    measures.</span>
+                    measures.`}</span>
                 </p>
               </div>
 
