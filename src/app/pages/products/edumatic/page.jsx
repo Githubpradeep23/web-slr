@@ -2,7 +2,7 @@
 import Contact from '@/components/Contact'
 import Link from 'next/link';
 import { useState, useEffect } from "react";
-const page = () => {
+const Page = () => {
 
   const [openTab, setOpenTab] = useState(1);
 
@@ -92,7 +92,7 @@ const page = () => {
                 <div className={openTab === 1 ? "block" : "hidden"}>
                   <div className='gap-2'>
                     <p className='md:mb-6 text-left py-2 text-gray-600 text-sm md:mt-2'>
-                      Elevate your institute's management to new heights with Edumatic. Our comprehensive platform offers a seamless and streamlined solution for all your administrative needs. From simplifying student enrollment and optimizing timetables to efficiently managing faculty assignments and attendance tracking, Edumatic empowers you to focus on what truly matters: education. Our platform's insightful analytics provide valuable data for informed decision-making, ensuring your institute operates at its best. Experience hassle-free institute management with Edumatic the all-in-one solution designed to enhance productivity and enable growth.
+                     {"Elevate your institute's management to new heights with Edumatic. Our comprehensive platform offers a seamless and streamlined solution for all your administrative needs. From simplifying student enrollment and optimizing timetables to efficiently managing faculty assignments and attendance tracking, Edumatic empowers you to focus on what truly matters: education. Our platform's insightful analytics provide valuable data for informed decision-making, ensuring your institute operates at its best. Experience hassle-free institute management with Edumatic the all-in-one solution designed to enhance productivity and enable growth."}
                     </p>
 
                     {productForInstitude && productForInstitude.map((proMenu, index) => (
@@ -113,7 +113,7 @@ const page = () => {
                 <div className={openTab === 2 ? "block" : "hidden"}>
                   <div className='gap-2'>
                     <p className='max-w-[1000px] md:mb-6 text-left py-2 text-gray-600 text-sm md:mt-2'>
-                      Elevate your institute's management to new heights with Edumatic. Our comprehensive platform offers a seamless and streamlined solution for all your administrative needs. From simplifying student enrollment and optimizing timetables to efficiently managing faculty assignments and attendance tracking, Edumatic empowers you to focus on what truly matters: education. Our platform's insightful analytics provide valuable data for informed decision-making, ensuring your institute operates at its best. Experience hassle-free institute management with Edumatic the all-in-one solution designed to enhance productivity and enable growth.
+                      {"Elevate your institute's management to new heights with Edumatic. Our comprehensive platform offers a seamless and streamlined solution for all your administrative needs. From simplifying student enrollment and optimizing timetables to efficiently managing faculty assignments and attendance tracking, Edumatic empowers you to focus on what truly matters: education. Our platform's insightful analytics provide valuable data for informed decision-making, ensuring your institute operates at its best. Experience hassle-free institute management with Edumatic the all-in-one solution designed to enhance productivity and enable growth."}
                     </p>
                     
                     {productForTeacher && productForTeacher.map((proTeachMenu, index) => (
@@ -145,4 +145,4 @@ const page = () => {
 
   )
 }
-export default page;
+export default Page;
