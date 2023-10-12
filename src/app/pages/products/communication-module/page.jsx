@@ -49,7 +49,7 @@ const page = () => {
                         <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-1">
                             <h2 className="font-bold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 ml-8 md:mb-[60px] lg:mb-[20px]">Features</h2>
                             <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
-                            Teachmint makes communication effortless for all the stakeholders. The main features of our communication module are: </p>
+                            {"Teachmint makes communication effortless for all the stakeholders. The main features of our communication module are:"} </p>
                          </div>
 
                     </div>
@@ -61,7 +61,7 @@ const page = () => {
                                 <h4 className="text-dark mb-3 text-sm font-semibold">
                                 Polls and Surveys</h4>
                                 <p className="text-body-color text-xs">
-                                Admins can effectively use Teachmint for conducting polls and surveys to gather stakeholder views and enhance decision-making.</p>
+                                {"Admins can effectively use Teachmint for conducting polls and surveys to gather stakeholder views and enhance decision-making."}</p>
                                 <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ const page = () => {
                                 <h4 className="text-dark mb-3 text-sm font-semibold">
                                 Announcements</h4>
                                 <p className="text-body-color text-xs">
-                                Admins can send announcements to teachers and students via push notifications, with a dashboard displaying the message timeline.</p>
+                                {"Admins can send announcements to teachers and students via push notifications, with a dashboard displaying the message timeline."}</p>
                                 <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ const page = () => {
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">Stay Connected with Parents</h4>
                                 <p className="text-body-color text-xs">
-                                Teachmint enables school admins to quickly share vital updates with parents, keeping them informed about school activities.</p>
+                                {"Teachmint enables school admins to quickly share vital updates with parents, keeping them informed about school activities."}</p>
                                 <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ const page = () => {
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">Seen and Unseen</h4>
                                 <p className="text-body-color text-xs">
-                                Admins can monitor message efficiency through seen and unseen messages, ensuring seamless communication via Teachmint.</p>
+                                {"Admins can monitor message efficiency through seen and unseen messages, ensuring seamless communication via Teachmint."}</p>
                                 <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ const page = () => {
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">Simple Format</h4>
                                 <p className="text-body-color text-xs">
-                                Administrators can efficiently send messages with titles, detailed content, and file attachments in various formats through user-friendly interface.</p>
+                                {"Administrators can efficiently send messages with titles, detailed content, and file attachments in various formats through user-friendly interface."}</p>
                                 <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ const page = () => {
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">Easy Segmentation</h4>
                                 <p className="text-body-color text-xs">
-                                Admins can communicate with specific recipients efficiently using Teachmint's user-friendly interface, ensuring targeted messaging.</p>
+                                {"Admins can communicate with specific recipients efficiently using Teachmint's user-friendly interface, ensuring targeted messaging."}</p>
                                 <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ const page = () => {
                     <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-8">
                         <h2 className="font-bold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 md:mb-[60px] lg:mb-[20px]">Benefits of Fee Management Software</h2>
                         <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
-                            Teachmint is the best fee management software solution out there in the market today and has several features that make it convenient for use among all the different stakeholders of the institution. Some of these are mentioned below -
+                            {"Teachmint is the best fee management software solution out there in the market today and has several features that make it convenient for use among all the different stakeholders of the institution. Some of these are mentioned below -"}
                         </p>
                     </div>
 
