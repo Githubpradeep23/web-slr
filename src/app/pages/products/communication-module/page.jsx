@@ -62,7 +62,7 @@ const page = () => {
                                 Polls and Surveys</h4>
                                 <p className="text-body-color text-xs">
                                 {"Admins can effectively use Teachmint for conducting polls and surveys to gather stakeholder views and enhance decision-making."}</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
                             </div>
                         </div>
 
@@ -72,7 +72,7 @@ const page = () => {
                                 Announcements</h4>
                                 <p className="text-body-color text-xs">
                                 {"Admins can send announcements to teachers and students via push notifications, with a dashboard displaying the message timeline."}</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
                             </div>
                         </div>
 
@@ -81,7 +81,7 @@ const page = () => {
                                 <h4 className="text-dark mb-3 text-sm font-semibold">Stay Connected with Parents</h4>
                                 <p className="text-body-color text-xs">
                                 {"Teachmint enables school admins to quickly share vital updates with parents, keeping them informed about school activities."}</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
                             </div>
                         </div>
 
@@ -90,7 +90,7 @@ const page = () => {
                                 <h4 className="text-dark mb-3 text-sm font-semibold">Seen and Unseen</h4>
                                 <p className="text-body-color text-xs">
                                 {"Admins can monitor message efficiency through seen and unseen messages, ensuring seamless communication via Teachmint."}</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
                             </div>
                         </div>
 
@@ -99,7 +99,7 @@ const page = () => {
                                 <h4 className="text-dark mb-3 text-sm font-semibold">Simple Format</h4>
                                 <p className="text-body-color text-xs">
                                 {"Administrators can efficiently send messages with titles, detailed content, and file attachments in various formats through user-friendly interface."}</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
                             </div>
                         </div>
 
@@ -108,7 +108,7 @@ const page = () => {
                                 <h4 className="text-dark mb-3 text-sm font-semibold">Easy Segmentation</h4>
                                 <p className="text-body-color text-xs">
                                 {"Admins can communicate with specific recipients efficiently using Teachmint's user-friendly interface, ensuring targeted messaging."}</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
                             </div>
                         </div>
 
