@@ -103,7 +103,7 @@ const page = () => {
           </div>
 
           <div className="rounded-lg flex justify-center items-center">
-            <Image width={300} height={"0"} src={"../../assets/images/home-banner/streamline-school.png"} className='' alt='/' />
+            <Image width={300} height={"0"}  src={"../../assets/images/home-banner/streamline-school.png"} className='' alt='/' />
           </div>
 
         </div>
