@@ -2,6 +2,7 @@ import Contact from '@/components/Contact'
 import Image from 'next/image'
 import Link from 'next/link';
 import { TiTick } from 'react-icons/ti'
+import Dis from "../../assets/images/home-banner/streamline-school.png"
 
 
 const page = () => {
@@ -102,7 +103,7 @@ const page = () => {
           </div>
 
           <div className="rounded-lg flex justify-center items-center">
-            <Image width={300} height={"0"} src={"../../assets/images/home-banner/streamline-school.png"} className='' alt='/' />
+            <Image width={300} height={"0"} src={Dis} className='' alt='/' />
           </div>
 
         </div>
