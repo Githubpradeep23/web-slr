@@ -1,17 +1,13 @@
-/**
- * @type {import('next').NextConfig}
- */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
- 
-  // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
-  // trailingSlash: true,
- 
-  // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
-  // skipTrailingSlashRedirect: true,
- 
-  // Optional: Change the output directory `out` -> `dist`
-  // distDir: 'dist',
-}
- 
+  basePath: "",
+  output: "standalone",
+  experimental: {
+    appDir: true,
+  },
+  images: {
+    domains: ["localhost", "localhost:3000", "https://githubpradeep23.github.io/web-slr/"],
+  },
+};
+
 module.exports = nextConfig
