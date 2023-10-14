@@ -13,7 +13,7 @@ module.exports = {
         mobile_hero_bg_image:
           "url('../../public/assets/images/mobile-hero.jpg')",
         enabled_decks: "url('../../public/assets/images/mobile-about.png')",
-
+        navbarbanner: "url('../../public/assets/images/hero.jpg')",
         mobile_enabled_decks:
           "url('../../public/assets/images/mobile-about.png')",
         storyteller_img:
