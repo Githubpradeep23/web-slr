@@ -1,7 +1,7 @@
 "use client";
 import Link from 'next/link';
 import React from 'react';
-import AdvertiseLogo from "../../public/assets/images/home-banner/advertising.png";
+import AdvertiseLogo from "/public/assets/images/home-banner/advertising.png";
 import Image from 'next/image';
 
 const Main = ({ bannerBg, bgTitle, bgTitle1, bgTitle2, content, type, className, buttonContent }) => {

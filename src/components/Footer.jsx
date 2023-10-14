@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image';
-import NavLogo from '../../public/assets/images/logo.jpg'
+import NavLogo from '/public/assets/images/logo.jpg'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import { MdAddLocationAlt } from 'react-icons/md';
 import { BiSolidPhoneCall } from 'react-icons/bi';

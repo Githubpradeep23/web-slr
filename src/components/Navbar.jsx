@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { AiFillLinkedin, AiFillYoutube, AiOutlineCaretDown, AiOutlineCaretUp, AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsChevronDown, BsFillPersonLinesFill } from 'react-icons/bs';
-import NavLogo from '../../public/assets/images/logo.jpg'
+import NavLogo from '/public/assets/images/logo.jpg'
 import { MenuList } from '@/json_data/MenuList';
 import { RiArrowDropDownFill } from "react-icons/ri";
 

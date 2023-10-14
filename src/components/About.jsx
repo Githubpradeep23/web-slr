@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../../public/assets/images/home-banner/mobile-about-2.png';
+import AboutImg from '/public/assets/images/home-banner/mobile-about-2.png';
 
 const About = () => {
   return (

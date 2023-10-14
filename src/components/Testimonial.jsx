@@ -7,10 +7,10 @@ import 'swiper/css';
 import 'swiper/css/grid';
 import 'swiper/css/pagination';
 import Image from 'next/image';
-import Css from '../../public/assets/skills/css.png';
+import Css from '/public/assets/skills/css.png';
 // import required modules
 import { Autoplay, Grid, Pagination } from 'swiper/modules';
-import { TestimonialData } from "../json_data/TestiminialData";
+import { TestimonialData } from "../../json_data/TestiminialData";
 import { AiFillLinkedin } from 'react-icons/ai';
 
 const Testimonial = () => {
