@@ -1,9 +1,13 @@
-/* @type {import ('next).NextConfig) */
-module .exports = {
-   reactStrictMode: false, 
-   webpack5: true,
-   webpack: (config) -> {
-   config.resolve.fallback = { fs: false };
-   return config;
-   },
+/** @type import('next' ). NextConfig] */
+const nextConfig = {
+basePath: " ",
+output: "standalone",
+experimental: {
+   appDir: true,
+},
+images: {
+domains: ['localhost","localhost: 3000","https://githubpradeep23-github.io/web-slr/"],
+          },
 };
+
+module. exports = nextConfig
