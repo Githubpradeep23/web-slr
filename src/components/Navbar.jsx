@@ -35,11 +35,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div
-      style={{
-        backgroundImage: "url('../../assets/images/hero.jpg')",
-      }}
-      className={` ${shadow ? 'fixed w-full h-16 shadow-xl z-[100] ease-in-out duration-300' : 'fixed w-full h-16 z-[100]'}`}
+    <div className={` bg-navbarbanner ${shadow ? 'fixed w-full h-16 shadow-xl z-[100] ease-in-out duration-300' : 'fixed w-full h-16 z-[100]'}`}
     >
       <div className='flex justify-between items-center flex-wrap max-w-screen-xl mx-auto w-full h-full px-2 2xl:px-16 '>
         <Link href='/'>
