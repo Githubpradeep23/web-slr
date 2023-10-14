@@ -1,5 +1,5 @@
 "use client";
-import {Contact} from '@/components/Contact'
+import {Contact} from '/src/components/Contact'
 import Link from 'next/link';
 import { useState, useEffect } from "react";
 const Page = () => {
