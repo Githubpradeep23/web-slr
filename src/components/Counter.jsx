@@ -18,8 +18,7 @@ const Counter = () => {
           <div className="relative mr-16">
 
             <Image width={"0"} height={"0"} src={"../assets/images/Asset-2.png"} className='object-cover mx-auto mb-[30px] lg:mb-0 lg:flex-1 w-[25%] fade opacity-50' alt='/' />
-            <Image width={"0"} height={"0"} src={"../assets/images/Asset-1.png"} className='absolute shadow-3 rounded-2xl top-1 right-[85px] animate-float w-[40%] opacity-50' width={"145"} height
-              ={"127"} alt='/' />
+            <Image width={"0"} height={"0"} src={"../assets/images/Asset-1.png"} className='absolute shadow-3 rounded-2xl top-1 right-[85px] animate-float w-[40%] opacity-50' alt='/' />
             <Image width={"0"} height={"0"} src={"../assets/images/Asset-3.png"} className='absolute shadow-3 rounded-2xl right-[85px] animate-float -bottom-5 w-[30%] opacity-50' alt='/' />
 
           </div>
