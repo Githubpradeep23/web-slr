@@ -106,7 +106,7 @@ const page = () => {
                             {services && services.map((list, index) => (
                                 <div key={list.name} className='grid grid-cols-2'>
                                     <div className='m-auto text-left'>
-                                        <Image src={list.imageUrl} width='25' height='25' alt='/' />
+                                        <Image src={list.imageUrl} width='25' height='25'  quality='90' alt='/' />
                                     </div>
                                     <div className='text-left md:-ml-12 md:py-2'>
                                         <span className='text-[14px]'>{list.name}</span>
