@@ -94,7 +94,7 @@ const page = () => {
                         </p>
 
                         <div className="rounded-lg">
-                            <Image className='md:w-[300px]' width={0} height={"0"} quality={"90"} src={"../../assets/images/home-banner/mobile-app-1.png"} alt='/' />
+                            <Image className='md:w-[300px]' width={0} height={"0"} src={"../../assets/images/home-banner/mobile-app-1.png"} alt='/' />
                         </div>
 
                     </div>
@@ -106,7 +106,7 @@ const page = () => {
                             {services && services.map((list, index) => (
                                 <div key={list.name} className='grid grid-cols-2'>
                                     <div className='m-auto text-left'>
-                                        <Image src={list.imageUrl} width='25' height='25' alt='/' />
+                                        <Image src={list.imageUrl} width='75' height='75' alt='/' />
                                     </div>
                                     <div className='text-left md:-ml-12 md:py-2'>
                                         <span className='text-[14px]'>{list.name}</span>
