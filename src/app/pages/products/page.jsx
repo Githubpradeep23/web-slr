@@ -54,7 +54,7 @@ const page = () => {
               <div className="mb-8 rounded-[20px] bg-white">
                 <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                  <Image width={"0"} height={"0"} src={"../../assets/images/servicen1.png"} className='object-cover w-32' alt='/' />
+                  <Image width={"16"} height={"14"} src={"../../assets/images/servicen1.png"} className='object-cover w-32' alt='/' />
 
                 </div>
                 <h4 className="text-dark mb-3 text-sm font-semibold">
