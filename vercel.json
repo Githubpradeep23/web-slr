@@ -1,8 +1,15 @@
 {
     "rewrites": [
         {
+
+            "images": {
+             "default": {
+              "sizes": "100vw",
+              "quality": 100,
             "source": "/(.*)",
             "destination": "/"
+             }
+            }
         }
     ]
 }
