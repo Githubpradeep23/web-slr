@@ -211,7 +211,7 @@ const page = () => {
                                 <div className="mb-8 rounded-[20px] bg-white">
                                     <div className="bg-primary flex h-[60px] w-[70px] items-center justify-start rounded-2xl">
                                             {listFour.imageUrl &&
-                                                <Image width={"25"} height={"25"} quality={'90"} src={listFour.imageUrl} className='object-cover w-8' alt='/' />
+                                                <Image width={"32"} height={"32"} quality={"90"} src={listFour.imageUrl} className='object-cover w-8' alt='/' />
                                             }
                                     </div>
                                     <h4 className="text-dark mb-2 text-sm text-left font-semibold">
