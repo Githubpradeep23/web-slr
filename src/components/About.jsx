@@ -24,7 +24,7 @@ const About = () => {
         </div>
 
         <div className='w-full h-auto -mt-20 m-auto flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image width={"100"} height={"100"} src={AboutImg} className='w-full' alt='/' />
+          <Image width={"1000"} height={"1000"} src={AboutImg} className='w-full' alt='/' />
         </div>
       </div>
     </div>

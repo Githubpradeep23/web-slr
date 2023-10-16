@@ -33,7 +33,7 @@ const ServiceComponent = () => {
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                                            <Image width={"100"} height={"100"} src={"../assets/images/servicen1.png"} className='object-cover w-32' alt='/' />
+                                            <Image width={"1000"} height={"1000"} src={"../assets/images/servicen1.png"} className='object-cover w-32' alt='/' />
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">
@@ -50,7 +50,7 @@ const ServiceComponent = () => {
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                                            <Image width={"100"} height={"100"} src={"../assets/images/servicen2.png"} className='object-cover w-32' alt='/' />
+                                            <Image width={"1000"} height={"1000"} src={"../assets/images/servicen2.png"} className='object-cover w-32' alt='/' />
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">
@@ -67,7 +67,7 @@ const ServiceComponent = () => {
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                                            <Image width={"100"} height={"100"} src={"../assets/images/servicen3n.png"} className='object-cover w-32' alt='/' />
+                                            <Image width={"1000"} height={"1000"} src={"../assets/images/servicen3n.png"} className='object-cover w-32' alt='/' />
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">Mobile App Development</h4>
@@ -82,7 +82,7 @@ const ServiceComponent = () => {
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                                            <Image width={"100"} height={"100"} src={"../assets/images/servicen3.png"} className='object-cover w-32' alt='/' />
+                                            <Image width={"1000"} height={"1000"} src={"../assets/images/servicen3.png"} className='object-cover w-32' alt='/' />
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">IT Staffing</h4>
@@ -97,7 +97,7 @@ const ServiceComponent = () => {
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
                                          
-                                            <Image width={"100"} height={"100"} src={"../assets/images/servicen5.png"} className='object-cover w-32' alt='/' />
+                                            <Image width={"1000"} height={"1000"} src={"../assets/images/servicen5.png"} className='object-cover w-32' alt='/' />
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">
@@ -114,7 +114,7 @@ const ServiceComponent = () => {
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                                            <Image width={"100"} height={"100"} src={"../assets/images/servicen6.png"} className='object-cover w-32' alt='/' />
+                                            <Image width={"1000"} height={"1000"} src={"../assets/images/servicen6.png"} className='object-cover w-32' alt='/' />
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">Digital Marketing Services</h4>
