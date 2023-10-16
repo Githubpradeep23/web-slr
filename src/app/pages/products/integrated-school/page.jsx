@@ -102,7 +102,7 @@ const page = () => {
           </div>
 
           <div className="rounded-lg flex justify-center items-center">
-            <Image width={"100"} height={"100"} src={"../../assets/images/home-banner/streamline-school.png"} className='md:w-[300px]' alt='/' />
+            <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/streamline-school.png"} className='md:w-[300px]' alt='/' />
           </div>
 
         </div>
@@ -110,7 +110,7 @@ const page = () => {
         <div className='m-auto md:max-w-6xl md:grid grid-cols-2 md:mt-10'>
 
           <div className="rounded-lg flex justify-center items-center">
-            <Image width={"100"} height={"100"} src={"../../assets/images/home-banner/efficiency.png"} className='md:w-[300px]' alt='/' />
+            <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/efficiency.png"} className='md:w-[300px]' alt='/' />
           </div>
 
           <div className='mb-8 px-12'>
@@ -150,7 +150,7 @@ const page = () => {
           </div>
 
           <div className="rounded-lg flex justify-center items-center">
-            <Image width={"100"} height={"100"} src={"../../assets/images/home-banner/innovative.png"} className='md:w-[300px]' alt='/' />
+            <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/innovative.png"} className='md:w-[300px]' alt='/' />
           </div>
 
         </div>
