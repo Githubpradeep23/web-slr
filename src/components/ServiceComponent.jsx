@@ -11,7 +11,7 @@ const ServiceComponent = () => {
 
                         <div className="">
 
-                            <Image width={"100"} height={"100"} src={"../assets/images/home-banner/servicenew.png"} className='w-full object-cover' alt='/' />
+                            <Image width={"1000"} height={"1000"} src={"../assets/images/home-banner/servicenew.png"} className='w-full object-cover' alt='/' />
 
                         </div>
 
