@@ -38,7 +38,7 @@ const page = () => {
 
                         <div className="md:mt-40">
 
-                            <Image width={"100"} height={"100"} src={"../../assets/images/home-banner/digital-serivces.png"} className='w-full object-cover' alt='/' />
+                            <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/digital-serivces.png"} className='w-full object-cover' alt='/' />
 
                         </div>
 
@@ -60,7 +60,7 @@ const page = () => {
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                                            <Image width={"100"} height={"100"} src={"../../assets/images/servicen1.png"} className='object-cover md:w-32' alt='/' />
+                                            <Image width={"1000"} height={"1000"} src={"../../assets/images/servicen1.png"} className='object-cover md:w-32' alt='/' />
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">
@@ -76,7 +76,7 @@ const page = () => {
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                                            <Image width={"100"} height={"100"} src={"../../assets/images/servicen2.png"} className='object-cover md:w-32' alt='/' />
+                                            <Image width={"1000"} height={"1000"} src={"../../assets/images/servicen2.png"} className='object-cover md:w-32' alt='/' />
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">
@@ -92,7 +92,7 @@ const page = () => {
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                                            <Image width={"100"} height={"100"} src={"../../assets/images/servicen3n.png"} className='object-cover md:w-32' alt='/' />
+                                            <Image width={"1000"} height={"1000"} src={"../../assets/images/servicen3n.png"} className='object-cover md:w-32' alt='/' />
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">Social Media Marketing</h4>
@@ -106,7 +106,7 @@ const page = () => {
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                                            <Image width={"100"} height={"100"} src={"../../assets/images/servicen3.png"} className='object-cover md:w-32' alt='/' />
+                                            <Image width={"1000"} height={"1000"} src={"../../assets/images/servicen3.png"} className='object-cover md:w-32' alt='/' />
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">Lead Generation</h4>
@@ -121,7 +121,7 @@ const page = () => {
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                                            <Image width={"100"} height={"100"} src={"../../assets/images/servicen5.png"} className='object-cover md:w-32' alt='/' />
+                                            <Image width={"1000"} height={"1000"} src={"../../assets/images/servicen5.png"} className='object-cover md:w-32' alt='/' />
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">
@@ -138,7 +138,7 @@ const page = () => {
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                                            <Image width={"100"} height={"100"} src={"../../assets/images/servicen6.png"} className='object-cover md:w-32' alt='/' />
+                                            <Image width={"1000"} height={"1000"} src={"../../assets/images/servicen6.png"} className='object-cover md:w-32' alt='/' />
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">Email Marketing</h4>
@@ -194,7 +194,7 @@ const page = () => {
                     <div className='grid grid-cols-2 border-[1px] border-[#00000040] p-4 rounded-t-lg'>
 
                         <div>
-                            <Image width={"100"} height={"100"} src={"../../assets/images/home-banner/progress-bar-image.png"} className='object-cover md:w-[330px] md:h-[390px]' alt='/' />
+                            <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/progress-bar-image.png"} className='object-cover md:w-[330px] md:h-[390px]' alt='/' />
                         </div>
 
                         <div>
@@ -269,7 +269,7 @@ const page = () => {
 
                         <div className='hover:border-[#75EAE2] border-2 p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                             <div className='inset-0 h-auto z-0'>
-                                <Image width={"100"} height={"100"} src={"../../assets/images/home-banner/blog-3.png"} className='w-full' alt='/' />
+                                <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/blog-3.png"} className='w-full' alt='/' />
                             </div>
 
                             <div className='relative z-10 md:-mt-5 md:w-8 md:ml-24'>
@@ -284,7 +284,7 @@ const page = () => {
 
                         <div className='hover:border-[#75EAE2] border-2 p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                             <div className='m-auto'>
-                                <Image width={"100"} height={"100"} src={"../../assets/images/home-banner/blog-1.png"} className='w-full' alt='/' />
+                                <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/blog-1.png"} className='w-full' alt='/' />
                             </div>
                             <div className='relative z-10 md:-mt-5 md:w-8 md:ml-24'>
                                 <BsPlusCircleFill className='text-3xl' />
@@ -297,7 +297,7 @@ const page = () => {
                         </div>
                         <div className='hover:border-[#75EAE2] border-2 p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                             <div className='m-auto'>
-                                <Image width={"100"} height={"100"} src={"../../assets/images/home-banner/blog-2.png"} className='w-full' alt='/' />
+                                <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/blog-2.png"} className='w-full' alt='/' />
                             </div>
                             <div className='relative z-10 md:-mt-5 md:w-8 md:ml-24'>
                                 <BsPlusCircleFill className='text-3xl' />
