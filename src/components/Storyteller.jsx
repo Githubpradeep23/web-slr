@@ -4,7 +4,7 @@ import React from 'react';
 const Storyteller = () => {
   return (
     <>
-      <div id='about' className='mx-auto  w-full md:py-10 md:-mt-10 bg-no-repeat bg-cover text-center bg-storyteller_img' >
+      <div id='about' className='mx-auto w-full md:py-10 md:-mt-10 bg-no-repeat bg-cover text-center bg-storyteller_img' >
         <div className='m-auto md:grid grid-cols-3 gap-8'>
           <div className='md:-mt-52 md:ml-72 px-2 flex items-center justify-center'>
             {/* <Link href='/'>

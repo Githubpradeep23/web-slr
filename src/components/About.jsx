@@ -10,7 +10,7 @@ const About = () => {
       <div className='max-w-[1240px] m-auto md:grid grid-cols-2 gap-8'>
 
         <div className='bg-mpbile_enabled_decks bg-no-repeat bg-cover md:mt-20 px-2'>
-          <h2 className="font-bold md:text-4xl text-2xl text-[#152C4E] text-left">UI-Apps- SAP Accelerated Payroll Solutions Tool</h2>
+          <h2 className="font-bold md:text-4xl text-2xl text-[#152C4E] text-left">UI-Apps-SAP Accelerated Payroll Solutions Tool</h2>
           <p className='py-2 text-gray-600 text-left'>
             An easy-to-use role-based UI application that provides a simple and secure way to migrate
             (Import/Export) your employee payroll data
@@ -24,7 +24,7 @@ const About = () => {
         </div>
 
         <div className='w-full h-auto -mt-20 m-auto flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} className='' alt='/' />
+          <Image width={"100"} height={"100"} src={AboutImg} className='w-full' alt='/' />
         </div>
       </div>
     </div>
