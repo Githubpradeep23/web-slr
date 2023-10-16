@@ -5,7 +5,7 @@ import { BsPlusCircleFill } from 'react-icons/bs'
 const page = () => {
 
     const services = [
-        { name: "Increased Efficiency", imageUrl: "/assets/images/home-banner/increased-efficiency.png" },
+        { name: "Increased Efficiency", imageUrl: "/assets/images/home-banner/Increased-Eff.png" },
         { name: "Brand Recognition", imageUrl: "/assets/images/home-banner/brand-recognition.png" },
         { name: "Enhanced Productivity", imageUrl: "/assets/images/home-banner/enhanched-product.png" },
         { name: "Customer Engagement", imageUrl: "/assets/images/home-banner/Customer Engagement.png" },
@@ -94,7 +94,7 @@ const page = () => {
                         </p>
 
                         <div className="rounded-lg">
-                            <Image className='md:w-[300px]' width={"75"} height={"75"} quality={"90"}  src={"../../assets/images/home-banner/mobile-app-1.png"} alt='/' />
+                            <Image className='md:w-[300px]' width={"100"} height={"100"} src={"../../assets/images/home-banner/mobile-app-1.png"} alt='/' />
                         </div>
 
                     </div>
@@ -106,7 +106,7 @@ const page = () => {
                             {services && services.map((list, index) => (
                                 <div key={list.name} className='grid grid-cols-2'>
                                     <div className='m-auto text-left'>
-                                        <Image src={list.imageUrl} width="25" height="25" alt='/' />
+                                        <Image src={list.imageUrl} className='w-full' width={"100"} height={"100"} alt='/' />
                                     </div>
                                     <div className='text-left md:-ml-12 md:py-2'>
                                         <span className='text-[14px]'>{list.name}</span>
@@ -132,7 +132,7 @@ const page = () => {
                                     <div className="p-1">
                                         {listTwo.imageUrl &&
                                             <div className='flex justify-center'>
-                                                <Image src={listTwo.imageUrl} width='30' height='30' alt='/' />
+                                                <Image src={listTwo.imageUrl} className='w-full' width={"100"} height={"100"} alt='/' />
                                             </div>
                                         }
                                         <p className="text-[14px] p-2 text-left">{listTwo.name}</p>
@@ -147,7 +147,7 @@ const page = () => {
                         <h2 className="font-bold md:text-2xl text-2xl text-[#152C4E]">Innovative Digital Solutions for You</h2>
 
                         <div className="rounded-lg flex justify-center mt-20">
-                            <Image className='md:w-[300px]'  width={"75"} height={"75"} quality={"90"} src={"../../assets/images/home-banner/services-3.png"} alt='/' />
+                            <Image className='md:w-[300px]' width={"100"} height={"100"} src={"../../assets/images/home-banner/services-3.png"} alt='/' />
                         </div>
 
                     </div>
@@ -176,7 +176,7 @@ const page = () => {
                                     <div className="p-2">
                                         {listThree.imageUrl &&
                                             <div className='flex justify-center'>
-                                                <Image src={listThree.imageUrl} width='25' height='30' alt='/' />
+                                                <Image src={listThree.imageUrl} className='w-[25px]' width={"100"} height={"100"} alt='/' />
                                             </div>
                                         }
                                         <p className="text-[14px] p-2 text-center">{listThree.name}</p>
@@ -195,9 +195,9 @@ const page = () => {
 
                     <div className='md:max-w-lg'>
                         <h2 className="font-bold md:text-xl text-2xl text-[#152C4E] text-left">{`Leveraging Cutting-Edge Technologies for Software and Mobile App`}
-                           <br/> Development</h2>
+                            <br /> Development</h2>
                         <div className="rounded-lg md:mt-10">
-                            <Image className='md:w-[300px]'  width={"75"} height={"75"} quality={"90"} src={"../../assets/images/home-banner/services-4.png"} alt='/' />
+                            <Image className='md:w-[300px]' width={"100"} height={"100"} src={"../../assets/images/home-banner/services-4.png"} alt='/' />
                         </div>
 
                     </div>
@@ -208,21 +208,21 @@ const page = () => {
 
                             {cuttingAdege && cuttingAdege.map((listFour, index) => (
                                 <div key={listFour.name} className="w-full px-4">
-                                <div className="mb-8 rounded-[20px] bg-white">
-                                    <div className="bg-primary flex h-[60px] w-[70px] items-center justify-start rounded-2xl">
+                                    <div className="mb-8 rounded-[20px] bg-white">
+                                        <div className="bg-primary flex h-[60px] w-[70px] items-center justify-start rounded-2xl">
                                             {listFour.imageUrl &&
-                                                <Image width={"32"} height={"32"} quality={"90"} src={listFour.imageUrl} className='object-cover w-8' alt='/' />
+                                                <Image width={"100"} height={"100"} src={listFour.imageUrl} className='object-cover w-7' alt='/' />
                                             }
-                                    </div>
-                                    <h4 className="text-dark mb-2 text-sm text-left font-semibold">
+                                        </div>
+                                        <h4 className="text-dark mb-2 text-sm text-left font-semibold">
                                             {listFour.name}
-                                    </h4>
-                                    <p className="text-body-color text-xs text-justify">
+                                        </h4>
+                                        <p className="text-body-color text-xs text-justify">
                                             {listFour.content}
-                                    </p>
-                                        <span className=" flex justify-start w-1/3 leading-4 text-[#75EAE2]">____</span>
+                                        </p>
+                                        <span className="flex justify-start w-1/3 leading-4 text-[#75EAE2]">____</span>
+                                    </div>
                                 </div>
-                            </div>
                             ))}
 
                         </div>
