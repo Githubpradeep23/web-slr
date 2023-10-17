@@ -61,7 +61,7 @@ const page = () => {
               <Link key={list.name} href={list.link}>
               <div key={list.name} className="hover:border-[#75EAE2] border-2 bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
                 <div className="p-8">
-                  <h4 className="text-dark mb-3 text-sm font-semibold text-left">
+                  <h4 className="text-dark mb-3 text-sm font-semibold text-center">
                     {list.name}
                   </h4>
                   <p className="text-body-color text-xs text-left">
