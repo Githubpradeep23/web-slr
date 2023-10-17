@@ -109,7 +109,7 @@ const page = () => {
                                         <Image src={list.imageUrl} className='w-full' width={"1000"} height={"1000"} alt='/' />
                                     </div>
                                     <div className='text-left md:-ml-12 md:py-2'>
-                                        <span className='text-[14px]'>{list.name}</span>
+                                        <span className='text-[12px]'>{list.name}</span>
                                     </div>
                                 </div>
                             ))}
@@ -135,7 +135,7 @@ const page = () => {
                                                 <Image src={listTwo.imageUrl} className='w-full' width={"1000"} height={"1000"} alt='/' />
                                             </div>
                                         }
-                                        <p className="text-[14px] p-2 text-left">{listTwo.name}</p>
+                                        <p className="text-[12px] p-2 text-left">{listTwo.name}</p>
                                     </div>
                                 </div>
                             ))}
@@ -179,7 +179,7 @@ const page = () => {
                                                 <Image src={listThree.imageUrl} className='w-[25px]' width={"1000"} height={"1000"} alt='/' />
                                             </div>
                                         }
-                                        <p className="text-[14px] p-2 text-center">{listThree.name}</p>
+                                        <p className="text-[12px] p-2 text-center">{listThree.name}</p>
                                     </div>
                                 </div>
                             ))}
@@ -220,7 +220,8 @@ const page = () => {
                                         <p className="text-body-color text-xs text-left">
                                             {listFour.content}
                                         </p>
-                                        <span className="flex justify-start w-1/3 leading-4 text-[#75EAE2]">____</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
                             ))}
