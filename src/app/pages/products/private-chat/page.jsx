@@ -10,7 +10,7 @@ const page = () => {
         { name: "Time Saving", content: "Classroom Chat streamlines real-time communication, boosting collaboration among students and teachers for efficient discussions and problem-solving." },
         { name: "Timely Communication", content: "Teachmint's Classroom Chat facilitates efficient communication, fostering collaboration and enabling timely task completion in educational settings." },
         { name: "Efficiency in Virtual Learning", content: "Chat for Classroom greatly enhances virtual learning by providing real-time support, tailored communication, and comfortable doubt resolution for students." },
-       
+
     ];
 
     return (
@@ -48,8 +48,8 @@ const page = () => {
                         <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-1">
                             <h2 className="font-bold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 ml-8 md:mb-[60px] lg:mb-[20px]">Overview</h2>
                             <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
-                            Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process. </p>
-                         </div>
+                                Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process. </p>
+                        </div>
 
                     </div>
 
@@ -58,20 +58,22 @@ const page = () => {
                         <div className="w-full px-4">
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                                Easy Communication</h4>
+                                    Easy Communication</h4>
                                 <p className="text-body-color text-xs">
-                                Communicate efficiently within the class with Teachmint. Establish an easy, comfortable, and convenient communication channel</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                    Communicate efficiently within the class with Teachmint. Establish an easy, comfortable, and convenient communication channel</p>
+                                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                </div>
                             </div>
                         </div>
 
                         <div className="w-full px-4">
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                                Doubt Clearing</h4>
+                                    Doubt Clearing</h4>
                                 <p className="text-body-color text-xs">
-                                Clear students’ doubts in real-time with Teachmint’s Classroom Chat. Share information effortlessly!</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                    Clear students’ doubts in real-time with Teachmint’s Classroom Chat. Share information effortlessly!</p>
+                                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                </div>
                             </div>
                         </div>
 
@@ -79,8 +81,9 @@ const page = () => {
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">Improved Collaboration</h4>
                                 <p className="text-body-color text-xs">
-                                Allow students to connect with each other for a better learning environment & witness improved classroom collaboration!</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                    Allow students to connect with each other for a better learning environment & witness improved classroom collaboration!</p>
+                                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                </div>
                             </div>
                         </div>
 
