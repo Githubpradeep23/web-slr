@@ -63,7 +63,8 @@ const page = () => {
                 <p className="text-body-color text-xs">
                   {`Strong partnership with SAP to ensure alignment with the needs of the business and access to the latest innovations.`}
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -80,7 +81,8 @@ const page = () => {
                 <p className="text-body-color text-xs">
                   {`End-to-end provider for all HR solution-related needs, from reseller to comprehensive service-based models.`}
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -95,7 +97,8 @@ const page = () => {
                 <p className="text-body-color text-xs">
                   {`Scalable and flexible solutions to accommodate changing business needs.`}
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -110,7 +113,8 @@ const page = () => {
                 <p className="text-body-color text-xs">
                   {`Proven track record of successful SAP implementations across various industries.`}
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -127,7 +131,8 @@ const page = () => {
                 <p className="text-body-color text-xs">
                   {`Dedicated customer support and partnership approach for long-term success.`}
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -143,7 +148,8 @@ const page = () => {
                   {`Migrating to SAP's next-generation Enterprise Resource Planning (ERP) suite for real-time
                   data processing and analytics.`}
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -152,113 +158,113 @@ const page = () => {
         </div>
       </section>
 
-     <div id='about' className='w-full bg-gradient-to-r from-[#FFFFFF] from-15% via-[#FCFFFE80] via-20% to-[#75EAE440] to-100% text-center py-10' >
+      <div id='about' className='w-full bg-gradient-to-r from-[#FFFFFF] from-15% via-[#FCFFFE80] via-20% to-[#75EAE440] to-100% text-center py-10' >
 
-<div className='container mx-auto md:mb-10 flex justify-center md:mt-[60px]'>
+        <div className='container mx-auto md:mb-10 flex justify-center md:mt-[60px]'>
 
-  <div className="mx-auto max-w-[100%] text-center">
-    <h2 className="font-semibold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 md:mt-[70px] md:mb-[50px] lg:mb-[10px]">Key Features</h2>
-    <p className="text-body-color text-xs">
-     {`Strong partnership with SAP`}
-     </p>
-  </div>
+          <div className="mx-auto max-w-[100%] text-center">
+            <h2 className="font-semibold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 md:mt-[70px] md:mb-[50px] lg:mb-[10px]">Key Features</h2>
+            <p className="text-body-color text-xs">
+              {`Strong partnership with SAP`}
+            </p>
+          </div>
 
-  <div className="grid md:grid-cols-5 grid-cols-1 gap-4 px-8">
+          <div className="grid md:grid-cols-5 grid-cols-1 gap-4 px-8">
 
-<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-  <div className="p-4">
-    <div className='flex justify-center'>
-      <Image src={"../../assets/images/Role-Based Cloud Solution.png"} width='30' height='30' alt='/' />
-    </div>
-    <p className="text-[14px] p-2 text-center">{"Role-Based Cloud Solution"}</p>
-  </div>
-</div>
+            <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+              <div className="p-4">
+                <div className='flex justify-center'>
+                  <Image src={"../../assets/images/Role-Based Cloud Solution.png"} width='30' height='30' alt='/' />
+                </div>
+                <p className="text-[14px] p-2 text-center">{"Role-Based Cloud Solution"}</p>
+              </div>
+            </div>
 
-<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-  <div className="p-4">
-    <div className='flex justify-center'>
-      <Image src={"../../assets/images/Easy Data Migration.png"} width='30' height='30' alt='/' />
-    </div>
-    <p className="text-[14px] p-2 text-center">{"Easy Data Migration"}</p>
-  </div>
-</div>
+            <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+              <div className="p-4">
+                <div className='flex justify-center'>
+                  <Image src={"../../assets/images/Easy Data Migration.png"} width='30' height='30' alt='/' />
+                </div>
+                <p className="text-[14px] p-2 text-center">{"Easy Data Migration"}</p>
+              </div>
+            </div>
 
-<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-  <div className="p-4">
-    <div className='flex justify-center'>
-      <Image src={"../../assets/images/Data Extraction.png"} width='30' height='30' alt='/' />
-    </div>
-    <p className="text-[14px] p-2 text-center">{"Data Extraction"}</p>
-  </div>
-</div>
+            <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+              <div className="p-4">
+                <div className='flex justify-center'>
+                  <Image src={"../../assets/images/Data Extraction.png"} width='30' height='30' alt='/' />
+                </div>
+                <p className="text-[14px] p-2 text-center">{"Data Extraction"}</p>
+              </div>
+            </div>
 
-<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-  <div className="p-4">
-    <div className='flex justify-center'>
-      <Image src={"../../assets/images/User Friendly.png"} width='30' height='30' alt='/' />
-    </div>
-    <p className="text-[14px] p-2 text-center">{"User Friendly"}</p>
-  </div>
-</div>
+            <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+              <div className="p-4">
+                <div className='flex justify-center'>
+                  <Image src={"../../assets/images/User Friendly.png"} width='30' height='30' alt='/' />
+                </div>
+                <p className="text-[14px] p-2 text-center">{"User Friendly"}</p>
+              </div>
+            </div>
 
-<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-  <div className="p-4">
-    <div className='flex justify-center'>
-      <Image src={"../../assets/images/Easy Installation.png"} width='30' height='30' alt='/' />
-    </div>
-    <p className="text-[14px] p-2 text-center">{"Easy Installation"}</p>
-  </div>
-</div>
+            <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+              <div className="p-4">
+                <div className='flex justify-center'>
+                  <Image src={"../../assets/images/Easy Installation.png"} width='30' height='30' alt='/' />
+                </div>
+                <p className="text-[14px] p-2 text-center">{"Easy Installation"}</p>
+              </div>
+            </div>
 
-<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-  <div className="p-4">
-    <div className='flex justify-center'>
-      <Image src={"../../assets/images/Compliance Assurance.png"} width='30' height='30' alt='/' />
-    </div>
-    <p className="text-[14px] p-2 text-center">{"Compliance Assurance"}</p>
-  </div>
-</div>
+            <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+              <div className="p-4">
+                <div className='flex justify-center'>
+                  <Image src={"../../assets/images/Compliance Assurance.png"} width='30' height='30' alt='/' />
+                </div>
+                <p className="text-[14px] p-2 text-center">{"Compliance Assurance"}</p>
+              </div>
+            </div>
 
-<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-  <div className="p-4">
-    <div className='flex justify-center'>
-      <Image src={"../../assets/images/security.png"} width='30' height='30' alt='/' />
-    </div>
-    <p className="text-[14px] p-2 text-center">{"Security"}</p>
-  </div>
-</div>
+            <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+              <div className="p-4">
+                <div className='flex justify-center'>
+                  <Image src={"../../assets/images/security.png"} width='30' height='30' alt='/' />
+                </div>
+                <p className="text-[14px] p-2 text-center">{"Security"}</p>
+              </div>
+            </div>
 
-<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-  <div className="p-4">
-    <div className='flex justify-center'>
-      <Image src={"../../assets/images/Audit.png"} width='30' height='30' alt='/' />
-    </div>
-    <p className="text-[14px] p-2 text-center">{"Cost"}</p>
-  </div>
-</div>
+            <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+              <div className="p-4">
+                <div className='flex justify-center'>
+                  <Image src={"../../assets/images/Audit.png"} width='30' height='30' alt='/' />
+                </div>
+                <p className="text-[14px] p-2 text-center">{"Cost"}</p>
+              </div>
+            </div>
 
-<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-  <div className="p-4">
-    <div className='flex justify-center'>
-      <Image src={"../../assets/images/Time.png"} width='30' height='30' alt='/' />
-    </div>
-    <p className="text-[14px] p-2 text-center">{"Time"}</p>
-  </div>
-</div>
+            <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+              <div className="p-4">
+                <div className='flex justify-center'>
+                  <Image src={"../../assets/images/Time.png"} width='30' height='30' alt='/' />
+                </div>
+                <p className="text-[14px] p-2 text-center">{"Time"}</p>
+              </div>
+            </div>
 
-<div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-  <div className="p-4">
-    <div className='flex justify-center'>
-      <Image src={"../../assets/images/User Friendly.png"} width='30' height='30' alt='/' />
-    </div>
-    <p className="text-[14px] p-2 text-center">{"User Friendly"}</p>
-  </div>
-</div>
+            <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+              <div className="p-4">
+                <div className='flex justify-center'>
+                  <Image src={"../../assets/images/User Friendly.png"} width='30' height='30' alt='/' />
+                </div>
+                <p className="text-[14px] p-2 text-center">{"User Friendly"}</p>
+              </div>
+            </div>
 
-</div>
+          </div>
 
-</div>
-</div>
+        </div>
+      </div>
 
       {/* Start Sap Implementation */}
       <div className='container py-12 md:w-full mx-auto ' >
@@ -283,7 +289,7 @@ const page = () => {
               <div className='flex'>
                 <span className='mt-3'><FaCheck className='bg-[#75EAE4] text-[#75EAE4] rounded-full md:w-2 md:h-2' /></span>
                 <p className="text-[12px] md:text-[16px] p-1 text-justify"><b>{`TIME:`} </b>
-                <span className='md:text-sm'>
+                  <span className='md:text-sm'>
                     {`Building custom programs for the migration activity
                     takes 20 percent of the
                     project timeline, which demands considerable effort.`}</span>
@@ -292,8 +298,8 @@ const page = () => {
               <div className='flex'>
                 <span className='mt-3'><FaCheck className='bg-[#75EAE4] text-[#75EAE4] rounded-full md:w-2 md:h-2' /></span>
                 <p className="text-[12px] md:text-[16px] p-1 text-justify"><b>{`COMPLEXITY:`} </b>
-                <span className='md:text-sm'>
-                  {`Ultimately, the end user needs SAP knowledge to use the SAP transactions
+                  <span className='md:text-sm'>
+                    {`Ultimately, the end user needs SAP knowledge to use the SAP transactions
                     to import/export the data.`}</span>
                 </p>
               </div>
@@ -301,7 +307,7 @@ const page = () => {
               <div className='flex'>
                 <span className='mt-3'><FaCheck className='bg-[#75EAE4] text-[#75EAE4] rounded-full md:w-2 md:h-2' /></span>
                 <p className="text-[12px] md:text-[16px] p-1 text-justify"><b>{`SECURITY:`} </b>
-                <span className='md:text-sm'>
+                  <span className='md:text-sm'>
                     {`Sending sensitive data between different stakeholders is risky and not secure.`}</span>
                 </p>
               </div>
@@ -374,7 +380,7 @@ const page = () => {
                 <span className='mt-3'><FaCheck className='bg-[#75EAE4] text-[#75EAE4] rounded-full md:w-2 md:h-2' /></span>
                 <p className="text-[12px] md:text-[16px] p-1 text-justify"><b>{`Compliance Assurance:`} </b>
                   <span className='md:text-sm'>
-                   {` Stay compliant with the latest payroll regulations effortlessly.
+                    {` Stay compliant with the latest payroll regulations effortlessly.
                     Rest assured that your sensitive payroll data is protected with advanced security
                     measures.`}</span>
                 </p>
