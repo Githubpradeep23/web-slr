@@ -12,7 +12,7 @@ const page = () => {
     { name: "Tracking the effectiveness of admission processes", content: "Efficiently assess lead effectiveness and gauge admission counselor efforts through student and parent responses. Continuously monitor and track day-to-day admission activities." },
     { name: "Enhanced productivity", content: "Elevate the productivity of admission counselors and administrative staff with Teachmint's admission management system, thereby enhancing the overall productivity across the institute." },
     { name: "One-stop solution", content: "The admission management module offers a comprehensive solution for lead generation, admissions, and inquiries, reducing reliance on traditional processes for schools." },
-    { name: "Customized admission forms", content: "Customize admission forms independently with Teachmint, eliminating third-party interference and long waiting times at school counters. Enhance enrollment rates through automated admissions." },  
+    { name: "Customized admission forms", content: "Customize admission forms independently with Teachmint, eliminating third-party interference and long waiting times at school counters. Enhance enrollment rates through automated admissions." },
   ];
 
   return (
@@ -50,7 +50,7 @@ const page = () => {
             <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-8">
               <h2 className="font-bold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 ml-8 md:mb-[60px] lg:mb-[20px]">Student data collection</h2>
               <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
-              Teachmint streamlines student data collection for educational organizations. Admins can automate the process with admission management software, eliminating manual data entry.              </p>
+                Teachmint streamlines student data collection for educational organizations. Admins can automate the process with admission management software, eliminating manual data entry.              </p>
             </div>
 
           </div>
@@ -60,20 +60,22 @@ const page = () => {
             <div className="w-full px-4">
               <div className="mb-8 rounded-[20px] bg-white">
                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                Document collection                </h4>
+                  Document collection                </h4>
                 <p className="text-body-color text-xs">
-                Admins can collect relevant documents from students with admission management software. Students can upload their information on the dashboard.                </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                  Admins can collect relevant documents from students with admission management software. Students can upload their information on the dashboard.                </p>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
             <div className="w-full px-4">
               <div className="mb-8 rounded-[20px] bg-white">
                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                Selection                </h4>
+                  Selection                </h4>
                 <p className="text-body-color text-xs">
-                Teachmint enables quick merit list generation for efficient admissions, bringing top performers to educational institutes through automated selection.                </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                  Teachmint enables quick merit list generation for efficient admissions, bringing top performers to educational institutes through automated selection.                </p>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -83,7 +85,8 @@ const page = () => {
                 <p className="text-body-color text-xs">
                   Scalable and flexible solutions to accommodate changing business needs.
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -99,7 +102,7 @@ const page = () => {
           <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-8">
             <h2 className="font-bold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 md:mb-[60px] lg:mb-[20px]">Benefits of Admission Management Software</h2>
             <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
-            With a host of features, Teachmint provides various advantages to everyone connected to the education system. Some key benefits of the admission management system are:            </p>
+              With a host of features, Teachmint provides various advantages to everyone connected to the education system. Some key benefits of the admission management system are:            </p>
           </div>
 
           <div className="grid md:grid-cols-3 grid-cols-1 gap-2 px-4">
