@@ -18,7 +18,7 @@ const Storyteller = () => {
             </Link> */}
 
           </div>
-          <div className=' col-span-1 md:mt-20 px-2 mb-8'>
+          <div className=' col-span-1 md:mt-5 px-2 mb-8'>
             <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">Why Clients Trust Our Expertise and
               Choose to Partner with Us</h2>
             <h6 className='mb-2 text-[#152C4E] text-justify'>
