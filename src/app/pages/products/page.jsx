@@ -222,7 +222,7 @@ const page = () => {
 <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
   <div className="p-4">
     <div className='flex justify-center'>
-      <Image src={"../../assets/images/Security.png"} width='30' height='30' alt='/' />
+      <Image src={"../../assets/images/security.png"} width='30' height='30' alt='/' />
     </div>
     <p className="text-[14px] p-2 text-center">{"Security"}</p>
   </div>
