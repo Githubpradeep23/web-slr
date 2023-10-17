@@ -10,7 +10,7 @@ const page = () => {
     { name: "Provide Full Visibility to Teachers & Parents", content: "Teachmint's Academic School Yearly Calendar informs parents and teachers of exam schedules, enhancing academic planning, and effective holiday management." },
     { name: "Better Planning", content: "Effective institutional management requires proper planning. With Teachmint's School Year Planner, admins can efficiently manage exams, events, holidays, and vacations." },
     { name: "Time Saving", content: "Teachmint's Academic Calendar simplifies exam, holiday, and event management for admins, effectively aiding students and teachers in better planning." },
-];
+  ];
 
   return (
 
@@ -47,7 +47,7 @@ const page = () => {
             <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-8">
               <h2 className="font-bold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 ml-8 md:mb-[60px] lg:mb-[20px]">Overview</h2>
               <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
-              Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process.
+                Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process.
               </p>
             </div>
 
@@ -58,24 +58,26 @@ const page = () => {
             <div className="w-full px-4">
               <div className="mb-8 rounded-[20px] bg-white">
                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                Plan Exams Hassle-Free
+                  Plan Exams Hassle-Free
                 </h4>
                 <p className="text-body-color text-xs">
-                Schedule exams and class tests division-wise with Teachmint’s Academic School Year Calendar Planner! Convey the exact exam schedule at the right time
+                  Schedule exams and class tests division-wise with Teachmint’s Academic School Year Calendar Planner! Convey the exact exam schedule at the right time
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
             <div className="w-full px-4">
               <div className="mb-8 rounded-[20px] bg-white">
                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                Manage Holidays & Vacations
+                  Manage Holidays & Vacations
                 </h4>
                 <p className="text-body-color text-xs">
-                Avoid confusion and keep everyone informed about upcoming holidays with Year Planner. Be it summer vacation or winter holidays, keep everyone in the loop
+                  Avoid confusion and keep everyone informed about upcoming holidays with Year Planner. Be it summer vacation or winter holidays, keep everyone in the loop
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -83,9 +85,10 @@ const page = () => {
               <div className="mb-8 rounded-[20px] bg-white">
                 <h4 className="text-dark mb-3 text-sm font-semibold">Organize Events</h4>
                 <p className="text-body-color text-xs">
-                Organize sports day, annual events, and more such activities with proper planning by Teachmint School Year Planner on your side!
+                  Organize sports day, annual events, and more such activities with proper planning by Teachmint School Year Planner on your side!
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
