@@ -54,7 +54,7 @@ const page = () => {
         { name: "Programming Languages", content: "Our expert developers are fluent in a multitude of programming languages Python, JavaScript, Java, C, C# and PHP, tailoring each project to the language best suited for optimal performance and functionality.", imageUrl: "/assets/images/home-banner/programming-languages.png" },
         { name: "Mobile App Development Frameworks", content: "With cutting-edge frameworks like React Native and Flutter, we create cross-platform apps that seamlessly operate on various devices, reducing development time and costs.", imageUrl: "/assets/images/home-banner/mobile-app-development-frameworks.png" },
         { name: "Web Development Technologies", content: "Utilizing HTML5, CSS3, and dynamic JavaScript libraries, we design interactive and visually stunning web applications that captivate users and drive engagement.", imageUrl: "/assets/images/home-banner/web-development-technologies.png" },
-        { name: "Database Management Systems", content: "From traditional databases like MySQL to NoSQL solutions like MongoDB, we employ a wide spectrum of database systems, ensuring data is efficiently stored and retrieved per project requirements.", imageUrl: "/assets/images/home-banner/database-management.png" },
+        { name: "Database Management Systems", content: "From traditional databases like MySQL to NoSQL solutions like MongoDB, we employ a wide spectrum of database systems, ensuring data is efficiently stored.", imageUrl: "/assets/images/home-banner/database-management.png" },
     ];
 
     return (
