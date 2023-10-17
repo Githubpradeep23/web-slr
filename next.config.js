@@ -4,7 +4,7 @@ const nextConfig = {
   // images: {
   //   unoptimized: true,
   // }
-  basePath: "",
+  basePath: "https://academy.cyphertechvalley.com",
   output: "standalone",
   experimental: {
   appDir: true,
