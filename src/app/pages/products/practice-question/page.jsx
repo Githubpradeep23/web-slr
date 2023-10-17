@@ -46,9 +46,9 @@ const page = () => {
                         <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-1">
                             <h2 className="font-bold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 ml-8 md:mb-[60px] lg:mb-[20px]">Overview</h2>
                             <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
-                            Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process. 
-                             </p>
-                         </div>
+                                Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process.
+                            </p>
+                        </div>
 
                     </div>
 
@@ -57,20 +57,22 @@ const page = () => {
                         <div className="w-full px-4">
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                                Practice at Your Own Pace</h4>
+                                    Practice at Your Own Pace</h4>
                                 <p className="text-body-color text-xs">
-                                Practice & learn at your own pace with over 2 million questions from various educational boards in India</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                    Practice & learn at your own pace with over 2 million questions from various educational boards in India</p>
+                                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                </div>
                             </div>
                         </div>
 
                         <div className="w-full px-4">
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                                Self Assessment </h4>
+                                    Self Assessment </h4>
                                 <p className="text-body-color text-xs">
-                                Assess your skills independently and with topic-wise strength assessment & find out where you need to improve</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                    Assess your skills independently and with topic-wise strength assessment & find out where you need to improve</p>
+                                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                </div>
                             </div>
                         </div>
 
@@ -78,9 +80,10 @@ const page = () => {
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">Gamification of Learning</h4>
                                 <p className="text-body-color text-xs">
-                                Make the process of learning engaging & interesting by motivating them to practice daily and giving 
-                                student-personalized profile frames when they achieve streaks. Earn medals based on your performance </p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                    Make the process of learning engaging & interesting by motivating them to practice daily and giving
+                                    student-personalized profile frames when they achieve streaks. Earn medals based on your performance </p>
+                                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                </div>
                             </div>
                         </div>
 
