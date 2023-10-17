@@ -47,7 +47,7 @@ const page = () => {
                                 <div className="w-full px-4">
 
                                     <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-8">
-                                        <h2 className="font-normal md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 text-left ml-8 md:mb-[60px] lg:mb-[20px]">OUR SERVICES</h2>
+                                        <h2 className="font-bold md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 text-left ml-8 md:mb-[60px] lg:mb-[20px]">OUR SERVICES</h2>
                                         <h2 className="font-bold md:text-4xl text-2xl text-[#202124] mb-[50px] text-left ml-8">We Served as your wish for success
                                         </h2>
                                     </div>
