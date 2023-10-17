@@ -155,14 +155,14 @@ const page = () => {
                 </div>
             </div>
 
-            <div id='' className='mx-auto md:p-4 w-full text-center md:my-4 bg-gradient-to-r from-[#FFFFFF] from-5% via-[#FCFFFE80] via-5% to-[#75EAE440] to-100% ' >
+            <div id='' className='mx-auto md:p-2 w-full text-center md:my-4 bg-gradient-to-r from-[#FFFFFF] from-5% via-[#FCFFFE80] via-5% to-[#75EAE440] to-100% ' >
                 <div className='md:max-w-6xl m-auto md:grid grid-cols-2 gap-8 py-14'>
 
                     <div className='md:max-w-6xl'>
-                        <h2 className="font-bold md:text-2xl text-2xl text-[#152C4E] text-left">Streamlined Development Process</h2>
+                        <h2 className="font-bold md:text-2xl text-2xl text-[#152C4E] text-left md:mt-14">Streamlined Development Process</h2>
                         <p className='py-2 text-gray-600 text-sm md:mt-2 text-left'>
-                            {`Discover our end-to-end process for creating Software's and mobile apps, customized to
-                            meet your unique requirements.`}
+                            Discover our end-to-end process for creating Software's and mobile apps, customized to
+                            meet your unique requirements.
                         </p>
 
                     </div>
