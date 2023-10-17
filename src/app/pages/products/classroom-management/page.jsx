@@ -48,7 +48,7 @@ const page = () => {
             <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-8">
               <h2 className="font-bold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 ml-8 md:mb-[60px] lg:mb-[20px]">Overview</h2>
               <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
-              Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process. </p>
+                Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process. </p>
             </div>
 
           </div>
@@ -58,20 +58,22 @@ const page = () => {
             <div className="w-full px-4">
               <div className="mb-8 rounded-[20px] bg-white">
                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                Define Classroom Structure </h4>
+                  Define Classroom Structure </h4>
                 <p className="text-body-color text-xs">
-                Create & define a digital school structure, set subjectwise classroom activity objectives, move students from one classroom to another, and so on.</p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                  Create & define a digital school structure, set subjectwise classroom activity objectives, move students from one classroom to another, and so on.</p>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
             <div className="w-full px-4">
               <div className="mb-8 rounded-[20px] bg-white">
                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                Manage Classroom Attendance</h4>
+                  Manage Classroom Attendance</h4>
                 <p className="text-body-color text-xs">
-                Take complete control of your classroom attendance with Teachmint </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                  Take complete control of your classroom attendance with Teachmint </p>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -79,9 +81,10 @@ const page = () => {
               <div className="mb-8 rounded-[20px] bg-white">
                 <h4 className="text-dark mb-3 text-sm font-semibold">View Classroom Activity Status</h4>
                 <p className="text-body-color text-xs">
-                Keep track of every student’s performance, test scores, study materials, homework, and more
+                  Keep track of every student’s performance, test scores, study materials, homework, and more
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -97,7 +100,7 @@ const page = () => {
           <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-8">
             <h2 className="font-bold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 md:mb-[60px] lg:mb-[20px]">Benefits of classroom Management Software</h2>
             <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
-            Teachmint is the best fee management software solution out there in the market today and has several features that make it convenient for use among all the different stakeholders of the institution. Some of these are mentioned below -</p>
+              Teachmint is the best fee management software solution out there in the market today and has several features that make it convenient for use among all the different stakeholders of the institution. Some of these are mentioned below -</p>
           </div>
 
           <div className="grid md:grid-cols-3 grid-cols-1 gap-2 px-4">
