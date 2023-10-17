@@ -8,7 +8,7 @@ const page = () => {
         { name: "Cost & Time-Efficient", content: "Teachmint's in-house website maker saves schools time and money by eliminating the need for a web developer. It also offers free hosting on Teachmint's servers, reducing domain costs." },
         { name: "Better Visibility & Reach", content: "In today's digital education landscape, a school website is vital for online visibility, admissions, accessibility, and sustainable financial growth. It's an indispensable asset for modern schools." },
         { name: "Dig Deep into the Teachmint Ecosystem", content: "Teachmint's Integrated School Platform offers a cost-free website creation, seamless admission integration, and comprehensive ERP & LMS tools, streamlining school operations for all stakeholders." },
-       
+
     ];
 
     return (
@@ -46,8 +46,8 @@ const page = () => {
                         <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-1">
                             <h2 className="font-semibold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 ml-8 md:mb-[60px] lg:mb-[20px]">Overview</h2>
                             <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
-                            Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process.</p>
-                         </div>
+                                Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process.</p>
+                        </div>
 
                     </div>
 
@@ -56,20 +56,22 @@ const page = () => {
                         <div className="w-full px-4">
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                                Create & Manage Webpages Without Coding</h4>
+                                    Create & Manage Webpages Without Coding</h4>
                                 <p className="text-body-color text-xs">
-                                Create, customize, and manage webpages without any prior knowledge of coding or computer programming</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                    Create, customize, and manage webpages without any prior knowledge of coding or computer programming</p>
+                                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                </div>
                             </div>
                         </div>
 
                         <div className="w-full px-4">
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                                Choose a Template for the Website</h4>
+                                    Choose a Template for the Website</h4>
                                 <p className="text-body-color text-xs">
-                                Various templates to choose from to personalize & customize the school website</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                    Various templates to choose from to personalize & customize the school website</p>
+                                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                </div>
                             </div>
                         </div>
 
@@ -77,8 +79,9 @@ const page = () => {
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">Grow Your Online Presence</h4>
                                 <p className="text-body-color text-xs">
-                                Build & grow your school’s online presence and get a much farther reach</p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                    Build & grow your school’s online presence and get a much farther reach</p>
+                                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                </div>
                             </div>
                         </div>
 
