@@ -64,11 +64,12 @@ const page = () => {
 
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">
-                                           {` Search Engine Optimization (SEO)`}
+                                            {` Search Engine Optimization (SEO)`}
                                         </h4>
                                         <p className="text-body-color text-xs">
                                             {`Enhance your online visibility and rankings with our cutting-edge SEO techniques, driving organic traffic to your website.`}</p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -84,7 +85,8 @@ const page = () => {
                                         </h4>
                                         <p className="text-body-color text-xs">
                                             {`Reach your target audience swiftly and efficiently through our Google Ads campaigns, optimizing your ROI with precision targeting. `}</p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -98,7 +100,8 @@ const page = () => {
                                         <h4 className="text-dark mb-3 text-sm font-semibold">Social Media Marketing</h4>
                                         <p className="text-body-color text-xs">
                                             {`Harness the power of social platforms to engage, convert, and delight your audience, building a strong online community`}</p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -113,7 +116,8 @@ const page = () => {
                                         <p className="text-body-color text-xs">
                                             {`Fuel your sales pipeline with high-quality leads using our strategic lead generation tactics, tailored to your business.`}
                                         </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -130,7 +134,8 @@ const page = () => {
                                         <p className="text-body-color text-xs">
                                             {`Craft a compelling brand identity that resonates with your audience, leaving a lasting impression and fostering brand loyalty.`}
                                         </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -145,7 +150,8 @@ const page = () => {
                                         <p className="text-body-color text-xs">
                                             {`Leverage personalized email campaigns to nurture leads, retain customers, and drive conversions, all while enhancing your brand's reputation.`}
                                         </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">{`_____`}</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
 
