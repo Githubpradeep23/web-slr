@@ -5,7 +5,7 @@ import { BsPlusCircleFill } from 'react-icons/bs'
 const page = () => {
 
     const services = [
-        { name: "Increased Efficiency", imageUrl: "/assets/images/home-banner/Increased-Eff.png" },
+        { name: "Increased Efficiency", imageUrl: "/assets/images/home-banner/increased-eff.png" },
         { name: "Brand Recognition", imageUrl: "/assets/images/home-banner/brand-recognition.png" },
         { name: "Enhanced Productivity", imageUrl: "/assets/images/home-banner/enhanched-product.png" },
         { name: "Customer Engagement", imageUrl: "/assets/images/home-banner/Customer Engagement.png" },
