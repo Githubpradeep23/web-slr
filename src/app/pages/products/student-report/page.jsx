@@ -60,7 +60,8 @@ const page = () => {
                                     Subject wise & Student-wise Tracking </h4>
                                 <p className="text-body-color text-xs">
                                     Track the progress of students in the classroom, subject wise on an individual basis </p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                </div>
                             </div>
                         </div>
 
@@ -70,7 +71,8 @@ const page = () => {
                                     Automated Generation of Analytics                </h4>
                                 <p className="text-body-color text-xs">
                                     Get deep analytical insight into the classroom’s performance with automatic generation of reports                </p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                </div>
                             </div>
                         </div>
 
@@ -78,8 +80,9 @@ const page = () => {
                             <div className="mb-8 rounded-[20px] bg-white">
                                 <h4 className="text-dark mb-3 text-sm font-semibold">Track Trends in Performance</h4>
                                 <p className="text-body-color text-xs">
-                                In-depth understanding of the classroom through analysis of homework submission rates, test scores, and class attendance                                </p>
-                                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                    In-depth understanding of the classroom through analysis of homework submission rates, test scores, and class attendance                                </p>
+                                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                </div>
                             </div>
                         </div>
 
