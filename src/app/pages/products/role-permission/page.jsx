@@ -10,7 +10,7 @@ const page = () => {
     { name: "Create Custom Roles & Set Responsibilities", content: "Owners can add new administrators and set their permissions using Roles and Permissions. Teachmint streamlines this process, enabling efficient task execution." },
     { name: "Enforces Individual Accountability", content: "Efficient user management through Roles and Permissions ensures task accountability, motivating staff to be vigilant and enhancing overall school system efficiency." },
     { name: "Group People Working in Same Department Together", content: "Teachmint allows adding multiple administrators to roles as needed, for instance, during admission season, without the need to create entirely new roles." },
-];
+  ];
 
   return (
 
@@ -47,7 +47,7 @@ const page = () => {
             <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-8">
               <h2 className="font-bold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 ml-8 md:mb-[60px] lg:mb-[20px]">Overview</h2>
               <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
-              Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process..
+                Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process..
               </p>
             </div>
 
@@ -58,23 +58,25 @@ const page = () => {
             <div className="w-full px-4">
               <div className="mb-8 rounded-[20px] bg-white">
                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                Set Access Control for Staff
+                  Set Access Control for Staff
                 </h4>
                 <p className="text-body-color text-xs">
-                Define access permissions across Teachmint for each staff member in the school
+                  Define access permissions across Teachmint for each staff member in the school
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
             <div className="w-full px-4">
               <div className="mb-8 rounded-[20px] bg-white">
                 <h4 className="text-dark mb-3 text-sm font-semibold">
-                Create Custom Roles
+                  Create Custom Roles
                 </h4>
                 <p className="text-body-color text-xs">
-                Create roles for every staff member and define their access permissions with precision                </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                  Create roles for every staff member and define their access permissions with precision                </p>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -82,8 +84,9 @@ const page = () => {
               <div className="mb-8 rounded-[20px] bg-white">
                 <h4 className="text-dark mb-3 text-sm font-semibold">Delegate Responsibility Easily</h4>
                 <p className="text-body-color text-xs">
-                Make the responsibility of every individual administrator clear with well-defined permissions                </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                  Make the responsibility of every individual administrator clear with well-defined permissions                </p>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
