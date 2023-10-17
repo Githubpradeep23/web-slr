@@ -10,8 +10,8 @@ const Counter = () => {
         <div className="lg:grid lg:grid-cols-2 md:gap-y-[34px] lg:gap-x-[70px] gap-[100px] px-8">
 
           <div className="flex-1 lg:gap-[20px] xl:gap-[30px] md:ml-16">
-            <h2 className="font-normal md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 text-left ml-8 md:mb-[60px] lg:mb-[40px]">OUR METRICS</h2>
-            <p className="md:text-[30px] font-medium text-2xl leading-10 text-[#152C4E] mb-[50px] text-left ml-8">What Sets Us Apart as Your Business Consulting Partner
+            <h2 className="font-bold md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 text-left ml-8 md:mb-[60px] lg:mb-[5px]">OUR METRICS</h2>
+            <p className="md:text-[30px] font-bold text-2xl leading-10 text-[#152C4E] mb-[50px] text-left ml-8">What Sets Us Apart as Your Business Consulting Partner
             </p>
           </div>
 
