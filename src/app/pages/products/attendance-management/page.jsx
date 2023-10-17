@@ -66,7 +66,8 @@ const page = () => {
                 <p className="text-body-color text-xs">
                   Strong partnership with SAP to ensure alignment with the needs of the business and access to the latest innovations.
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -78,7 +79,8 @@ const page = () => {
                 <p className="text-body-color text-xs">
                   End-to-end provider for all HR solution-related needs, from reseller to comprehensive service-based models.
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
@@ -88,7 +90,8 @@ const page = () => {
                 <p className="text-body-color text-xs">
                   Scalable and flexible solutions to accommodate changing business needs.
                 </p>
-                <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                </div>
               </div>
             </div>
 
