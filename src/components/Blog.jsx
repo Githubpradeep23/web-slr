@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Blog = ({ blogsList }) => {
   return (
-    <div id='blog' className='w-full lg:h-screen md:mt-50'>
+    <div id='blog' className='w-full lg:h-screen md:mt-6'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-1xl tracking-widest text-center uppercase text-black'>
           BLOGS
@@ -17,7 +17,7 @@ const Blog = ({ blogsList }) => {
             <div key={list.id} className='p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className=''>
                 <div className='m-auto'>
-                  <Image width={"1000"} height={"1000"} src={list.image} className='w-full' alt='/' />
+                  <Image width={"1000"} height={"1000"} src={list.image} className='w-full md:h-36' alt='/' />
                 </div>
               </div>
               <div className='flex flex-col items-center justify-center my-4'>
@@ -33,10 +33,11 @@ const Blog = ({ blogsList }) => {
 
         <div className='flex flex-col items-center justify-center my-4 md:mt-10'>
           <h3>{"Dive Deeper to explore?"}</h3>
-          <Link href={"#"} >
+          <Link href={"pages/blogs"} >
           <p className='my-2 text-sm'>{"View all blogs"}</p>
           </Link>
-          <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+          <div className="w-1/12 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0">
+          </div>
         </div>
 
       </div>

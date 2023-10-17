@@ -28,7 +28,7 @@ const ServiceComponent = () => {
                                 </div>
                             </div>
                             <div className="-mx-4 grid grid-cols-3 px-4">
-                                
+
                                 <div className="w-full px-4">
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
@@ -42,7 +42,8 @@ const ServiceComponent = () => {
                                         <p className="text-body-color text-xs">
                                             Custom software solutions for seamless business operations.
                                         </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -59,7 +60,8 @@ const ServiceComponent = () => {
                                         <p className="text-body-color text-xs">
                                             Crafting captivating and functional websites tailored to your brand.
                                         </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -74,7 +76,8 @@ const ServiceComponent = () => {
                                         <p className="text-body-color text-xs">
                                             Creating innovative mobile applications that set your business apart.
                                         </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -89,14 +92,15 @@ const ServiceComponent = () => {
                                         <p className="text-body-color text-xs">
                                             Crafting captivating and functional websites tailored to your brand.
                                         </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div className="w-full px-4">
                                     <div className="mb-8 rounded-[20px] bg-white">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
-                                         
+
                                             <Image width={"1000"} height={"1000"} src={"../assets/images/servicen5.png"} className='object-cover w-32' alt='/' />
 
                                         </div>
@@ -106,7 +110,8 @@ const ServiceComponent = () => {
                                         <p className="text-body-color text-xs">
                                             Crafting captivating and functional websites tailored to your brand.
                                         </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -121,7 +126,8 @@ const ServiceComponent = () => {
                                         <p className="text-body-color text-xs">
                                             Enhance your online presence and drive success through digital marketing strategies.
                                         </p>
-                                        <span className="underline decoration-[#75EAE2] text-[#75EAE2] decoration-[3px]">_____</span>
+                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        </div>
                                     </div>
                                 </div>
 
