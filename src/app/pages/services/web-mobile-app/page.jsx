@@ -217,7 +217,7 @@ const page = () => {
                                         <h4 className="text-dark mb-2 text-sm text-left font-semibold">
                                             {listFour.name}
                                         </h4>
-                                        <p className="text-body-color text-xs text-justify">
+                                        <p className="text-body-color text-xs text-left">
                                             {listFour.content}
                                         </p>
                                         <span className="flex justify-start w-1/3 leading-4 text-[#75EAE2]">____</span>
