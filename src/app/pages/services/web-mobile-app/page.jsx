@@ -94,7 +94,7 @@ const page = () => {
                         </p>
 
                         <div className="rounded-lg">
-                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"../../assets/images/home-banner/mobile-app-1.png"} alt='/' />
+                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"/assets/images/home-banner/mobile-app-1.png"} alt='/' />
                         </div>
 
                     </div>
