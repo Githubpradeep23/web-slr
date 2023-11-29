@@ -33,6 +33,15 @@ html {
     flex-direction: unset!important;
 }
 
+.card:hover {
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
 @layer base {
   body {
     /* @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide */
