@@ -120,7 +120,7 @@ export default function about() {
                   <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mb-10 md:ml-10'>
 
                      {visionMission && visionMission.map((list, index) => (
-                        <div key={list.id} className='hover:border-[#75EAE2] border-2 relative w-80 h-60 rounded-2xl text-white overflow-hidden cursor-pointer transition-all duration-50 card'>
+                        <div key={index} className='hover:border-[#75EAE2] border-2 relative w-80 h-60 rounded-2xl text-white overflow-hidden cursor-pointer transition-all duration-50 card'>
                            <div className='absolute inset-0 w-full h-full flex justify-center items-center transition-all duration-100 delay-200 z-20 hover:opacity-0 hover:border-[#75EAE2] border-2 bg-white p-4 shadow-xl rounded-xl hover:scale-105 ease-in'>
                               <div className='flex flex-col items-center justify-center my-4'>
                                  <h3 className='font-semibold text-left text-4xl text-[#F05108] justify-center'>{list.title}</h3>
@@ -155,7 +155,7 @@ export default function about() {
 
                   <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mb-10 '>
                      {portfolioSpectrum && portfolioSpectrum.map((list, index) => (
-                        <div key={list.id} className='bg-white p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:border-[#75EAE2] border-2'>
+                        <div key={index} className='bg-white p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:border-[#75EAE2] border-2'>
                            <div className='m-auto'>
                               <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/digital-serivces.png"} className='w-full md:h-36' alt='/' />
                            </div>
