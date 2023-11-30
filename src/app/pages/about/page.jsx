@@ -120,13 +120,13 @@ export default function about() {
                   <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mb-10 md:ml-10'>
 
                      {visionMission && visionMission.map((list, index) => (
-                        <div className='hover:border-[#75EAE2] border-2 relative w-80 h-60 rounded-2xl text-white overflow-hidden cursor-pointer transition-all duration-50 card'>
-                           <div key={list.id} className='absolute inset-0 w-full h-full flex justify-center items-center transition-all duration-100 delay-200 z-20 hover:opacity-0 hover:border-[#75EAE2] border-2 bg-white p-4 shadow-xl rounded-xl hover:scale-105 ease-in'>
+                        <div key={list.id} className='hover:border-[#75EAE2] border-2 relative w-80 h-60 rounded-2xl text-white overflow-hidden cursor-pointer transition-all duration-50 card'>
+                           <div className='absolute inset-0 w-full h-full flex justify-center items-center transition-all duration-100 delay-200 z-20 hover:opacity-0 hover:border-[#75EAE2] border-2 bg-white p-4 shadow-xl rounded-xl hover:scale-105 ease-in'>
                               <div className='flex flex-col items-center justify-center my-4'>
                                  <h3 className='font-semibold text-left text-4xl text-[#F05108] justify-center'>{list.title}</h3>
                               </div>
                            </div>
-                           <div key={list.id} className='absolute inset-0 w-full h-full flex justify-center items-center transition-all z-10 card-back hover:border-[#75EAE2] border-2 bg-white p-4 shadow-xl rounded-xl hover:scale-105 ease-in'>
+                           <div className='absolute inset-0 w-full h-full flex justify-center items-center transition-all z-10 card-back hover:border-[#75EAE2] border-2 bg-white p-4 shadow-xl rounded-xl hover:scale-105 ease-in'>
                               <div className='flex flex-col items-center justify-center my-4'>
                                  <p className='my-2 text-sm text-black'>{list.description}</p>
                               </div>
@@ -176,9 +176,6 @@ export default function about() {
             <div id='blog' className='max-w-[1200px] w-full p-2 py-10 mx-auto my-10 '>
                <div className='max-w-[1000px] mx-auto flex flex-col justify-center h-full'>
 
-
-                  
-
                   <div className='items-center md:mb-10'>
                      <h1 className="font-bold md:text-4xl text-2xl text-[#152C4E] text-center">
                         Meet Our Expert
@@ -187,9 +184,6 @@ export default function about() {
                         {`A Diverse Group of Visionaries and Innovators. Driven by Passion, Shaping the Future of Technology`}
                      </p>
                   </div>
-
-
-
 
                   <div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
 
